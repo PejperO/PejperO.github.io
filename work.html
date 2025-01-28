@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PejperO - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/png" href="images/logo/icon.png" sizes="16x16">
+</head>
+<body>
+  <div id="particles-js"></div>
+  <div class="custom-cursor" id="cursor"></div>
+
+  <!-- Logo -->
+  <img src="images/logo/icon.png" alt="Logo" class="logo">
+
+  <!-- Navigation -->
+  <div class="nav-bar">
+    <a href="./">Home</a>
+    <a href="./#about">About Me</a>
+    <a>Portfolio</a>
+    <a href="./contact">Contact</a>
+    <a href="./workpl"><img src="images/languages/pl.png" alt="Zmień język na polski"></a>
+  </div>
+
+  <!-- Scroll Line -->
+  <div class="scroll-line" style="height: calc(672%)">
+    <div class="line"></div>
+    <div class="mouse"></div>
+    <p>Scroll</p>
+  </div>
+
+  <!-- Text -->
+  <div class="center-text">
+    All my personal projects are available on my <span class="name"><a href="https://github.com/PejperO" target="_blank">GitHub</a></span><br>
+    Here are my favorites:
+  </div>
+
+  <div class="projects-wrapper">
+    <div class="projects-container">
+
+      <div class="project-item right">
+        <img src="images/projects/Chess2D.png" alt="Project 1">
+        <div class="project-details">
+          <h3>Chess App with Local Network Play</h3>
+          <p><span>Project for Engineering Degree (B.Eng.)</span></p>
+          <p><span>Overview:</span></p>
+          <p>This project focuses on developing a chess application in Java with a graphical interface. It supports local and networked gameplay (localhost), game analysis, and saving/loading games from a database. Inspired by platforms like Chess.com and Lichess.org, the prototype showcases Java’s capabilities in implementing fundamental features such as game resetting, board flipping, and analysis.</p>
+        </div>
+      </div>
+
+      <div class="project-item left">
+        <img src="images/projects/applus_main_trimmed.png" alt="Project 2">
+        <div class="project-details">
+          <h3>Website and Logo Design for an Architecture Studio</h3>
+          <p><span>Overview:</span></p>
+          <p>I designed a website for an architecture studio, adhering to principles of minimalism and the owner's specific guidelines. The site features a carefully curated color palette reflecting the architect's vision and preferences.</p>
+          <p>I also created a new logo from scratch, aligning the studio's visual identity with modern trends while maintaining the unique style and preferences of the owner.</p>
+
+          <p><span>Features:</span></p>
+          <ul>
+            <li>Portfolio: A gallery showcasing various projects.</li>
+            <li>Services: A detailed description of the firm's offerings.</li>
+            <li>About Us: Insights into the architect's approach to design.</li>
+          </ul>
+          <a href="https://applus.pl" target="_blank">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-item right">
+        <img src="images/projects/python.png" alt="Project 3">
+        <div class="project-details">
+          <h3>Deep Learning and Advanced Models</h3>
+          <p><span>Overview:</span></p>
+          <p>These projects focus on applying deep learning techniques to complex problems using modern neural network architectures:</p>
+          <ul>
+            <li><p><span>Currency Exchange Rate Prediction with LSTM:</span></p> Using LSTM networks to predict the EUR/PLN exchange rate based on historical data, emphasizing next-day opening rate predictions.</li>
+            <a href="https://github.com/PejperO/EUR_to_PLN_Exchange_Rate_Prediction" target="_blank">View Project</a>
+            <li><p><span>Image Classification with CNN:</span></p> Leveraging convolutional neural networks (CNNs) to classify CIFAR-10 images, optimizing architecture for accuracy.</li>
+            <a href="https://github.com/PejperO/CIFAR-10_Image_Classification" target="_blank">View Project</a>
+            <li><p><span>Regression and Classification with Neural Networks:</span></p> Comparative analysis using custom-built and Keras-based networks to tackle regression and classification tasks.</li>
+            <a href="https://github.com/PejperO/Neural_Network_Regression_and_Classification" target="_blank">View Project</a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-item left">
+        <img src="images/projects/voting_classifier.png" alt="Project 4">
+        <div class="project-details">
+          <h3>Classic Machine Learning and Core Techniques</h3>
+          <p><span>Overview:</span></p>
+          <p>These projects explore traditional machine learning approaches, emphasizing fundamental concepts and manual implementations:</p>
+
+          <ul>
+            <li><p><span>Machine Learning with scikit-learn:</span></p> Comprehensive workflows include synthetic data generation, model training, ensemble methods, and regression comparisons.</li>
+            <a href="https://github.com/PejperO/Machine_Learning" target="_blank">View Project</a>
+            <li><p><span>Multi-class Classification with Perceptron and Logistic Regression:</span></p> Hands-on implementation to understand the mathematical foundations and applications of these algorithms.</li>
+            <a href="https://github.com/PejperO/Multi-class_Classifier" target="_blank">View Project</a>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-item right">
+        <img src="images/projects/poker.png" alt="Project 5">
+        <div class="project-details">
+          <h3>Poker Calculator (Educational Project)</h3>
+          <p><span>Disclaimer:</span> This project is for educational purposes only and does not encourage gambling.</p>
+          <p><span>Overview:</span></p>
+          <p>An Android app built with Kotlin for calculating and managing poker players' balances. Features include player management, rebuy tracking, and modern UI design.</p>
+          <p><span>Features:</span></p>
+          <ul>
+            <li>Add new players with their names.</li>
+            <li>Automatically set the starting balance and rebuy to 0.</li>
+            <li>Calculate the player's final balance, taking into account the rebuy.</li>
+            <li>Display player information in a RecyclerView.</li>
+            <li>Modern and responsive user interface design.</li>
+          </ul>
+          <a href="https://github.com/PejperO/PokerCalculator" target="_blank">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-item left">
+        <img src="images/projects/weather-wiki.png" alt="Project 6">
+        <div class="project-details">
+          <h3>Weather Wiki</h3>
+          <p><span>Overview:</span></p>
+          <p>Utilizing OpenWeatherMap and exchangerate.host APIs, this app provides weather data, Wikipedia info, and currency exchange rates for selected cities.</p>
+          <p><span>Input Parameters:</span></p>
+          <ul>
+            <li>City</li>
+            <li>Country</li>
+            <li>Currency</li>
+          </ul>
+          <a href="https://github.com/PejperO/Get_Weather-Wiki" target="_blank">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-item right">
+        <img src="images/projects/pizzeria.png" alt="Project 7">
+        <div class="project-details">
+          <h3>Pizzeria Manager</h3>
+          <p><span>Overview:</span></p>
+          <p>A comprehensive system for managing pizzerias, covering menu management, ingredient tracking, staff scheduling, customer orders, and real-time order tracking.</p>
+          <p><span>Features:</span></p>
+          <ul>
+            <li>Menu Management: Create, update, and organize restaurant menu items.</li>
+            <li>Ingredient Management: Track available ingredients and inventory levels.</li>
+            <li>Employee Management: Manage schedules, roles, and employee responsibilities.</li>
+            <li>Customer Management: Record customer orders and preferences to provide personalized service.</li>
+            <li>Order Tracking: Monitor order statuses in real-time from initiation to delivery.</li>
+          </ul>
+          <a href="https://github.com/PejperO/PizzeriaManager" target="_blank">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-item left">
+        <img src="images/projects/pizzapl.png" alt="Project 8">
+        <div class="project-details">
+          <h3>Pizza Ordering Website</h3>
+          <p><span>Overview:</span></p>
+          <p>A full-stack web app for ordering pizza, featuring user and admin accounts, menu customization, and order management.</p>
+          <p><span>Features:</span></p>
+          <ul>
+            <li><strong>Restaurants:</strong> A list of restaurants retrieved from the database where users can place orders.</li>
+            <li><strong>User Accounts:</strong> Users can register, log in, and manage their order preferences.</li>
+            <li><strong>Admin Accounts:</strong> Admins can manage users, orders, and restaurants, with the ability to modify orders.</li>
+            <li><strong>Restaurant Accounts:</strong> Managers can edit menu items, adjust prices, and update order statuses.</li>
+          </ul>
+          <a href="https://github.com/PejperO/Pizza_Ordering_Website" target="_blank">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer" style="bottom: -6500px;">
+    Copyright © 2025 Mikołaj Polecki. All rights reserved.
+  </div>
+
+  <!-- Add Particles.js library -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
