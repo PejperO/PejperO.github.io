@@ -17,24 +17,24 @@
 
   <!-- Navigation -->
   <div class="nav-bar">
-    <a>Home</a>
-    <a href="#about" class="scroll-link">About Me</a>
-    <a href="./work">Portfolio</a>
-    <a href="./contact">Contact</a>
-    <a href="./indexpl"><img src="images/languages/pl.png" alt="Zmień język na polski"></a>
+    <a href="./" id="home">Home</a>
+    <a href="#about" class="scroll-link" id="about-link">About Me</a>
+    <a href="./work" id="portfolio">Portfolio</a>
+    <a href="./contact" id="contact">Contact</a>
+    <a id="language-toggle"><img src="images/languages/pl.png" alt="Change language"></a>
   </div>
 
   <!-- Scroll Line -->
   <div class="scroll-line" style="height: calc(173%)">
     <div class="line"></div>
     <div class="mouse"></div>
-    <p>Scroll</p>
+    <p id="scroll-text">Scroll</p>
   </div>
 
   <!-- Text -->
   <div class="center-text">
-    Hello World!<br>
-    My name is <span class="name">Mikołaj Polecki</span>
+    <span id="hello">Hello World!</span><br>
+    <span id="intro">My name is <span class="name">Mikołaj Polecki</span></span>
   </div>
 
   <!-- About Section -->
@@ -74,32 +74,32 @@
       </div>
       <div class="code-content">
         <p><span class="keyword">class</span> <span class="class-name">MikolajPolecki</span> {</p>
-        <p>&nbsp;&nbsp;// A hardworking programmer with passion</p>
+        <p>&nbsp;&nbsp;// <span id="about-text">A hardworking programmer with passion</span></p>
         <p>&nbsp;&nbsp;<span class="function">constructor</span>() {</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="property">this.name</span> = <span class="string">"Mikołaj Polecki"</span>;</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="property">this.specialization</span> = <span class="string">"Java Developer"</span>;</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="property" id="this-name">this.name</span> = <span class="string">"Mikołaj Polecki"</span>;</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="property" id="this-specialization">this.specialization</span> = <span class="string" id="specialization">"Java Developer"</span>;</p>
         <p>&nbsp;&nbsp;}</p>
-        <p>&nbsp;&nbsp;<span class="function">languages</span>() {</p>
+        <p>&nbsp;&nbsp;<span class="function" id="languages">languages</span>() {</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="return">return</span> [
         <span class="string">"Java"</span>, <span class="string">"Python"</span>, <span class="string">"Kotlin"</span>, <span class="string">"C++"</span>, <span class="string">"C#"</span>, <span class="string">"JavaScript"</span>, <span class="string">"HTML / CSS"</span>];</p>
         <p>&nbsp;&nbsp;}</p>
-        <p>&nbsp;&nbsp;<span class="function">skills</span>() {</p>
+        <p>&nbsp;&nbsp;<span class="function" id="skills">skills</span>() {</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="return">return</span> [<span class="string">"InteliJ"</span>, <span class="string">"PyCharm"</span>, <span class="string">"Clion"</span>, <span class="string">"Android Studio"</span>, <span class="string">"Visual Studio Code"</span>,</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Visual Studio"</span>, <span class="string">"Atom"</span>, <span class="string">"NodeJS"</span>, <span class="string">"MySQL"</span>, <span class="string">"SQLite"</span>, <span class="string">"Bash"</span>, <span class="string">"Git"</span>, <span class="string">"Figma"</span>];</p>
         <p>&nbsp;&nbsp;}</p>
-        <p>&nbsp;&nbsp;<span class="function">education</span>() {</p>
+        <p>&nbsp;&nbsp;<span class="function" id="education">education</span>() {</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="return">return</span> [</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"2021-2025 : Polish-Japanese Academy of Information Technology"</span>,</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Bachelor of Engineering (B.Eng.)"</span></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="edu-text">"2021-2025 : Polish-Japanese Academy of Information Technology"</span>,</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="degree">"Bachelor of Engineering (B.Eng.)"</span></p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
         <p>&nbsp;&nbsp;}</p>
-        <p>&nbsp;&nbsp;<span class="function">experience</span>() {</p>
+        <p>&nbsp;&nbsp;<span class="function" id="experience">experience</span>() {</p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="return">return</span> [</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"06.2024 – PRESENT : Programming Instructor | Programming Giants"</span>,</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"08.2020 – PRESENT : Freelance Programmer"</span>,</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"10.2023 – 06.2024 : IT Teacher | High School"</span>,</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"03.2021 – 05.2024 : Private Programming Lessons"</span>,</p>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"09.2020 – 06.2024 : IT Support | High School of St. Paul"</span></p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="exp1">"06.2024 – PRESENT : Programming Instructor | Coding Giants"</span>,</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="exp2">"08.2020 – PRESENT : Freelance Programmer"</span>,</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="exp3">"10.2023 – 06.2024 : IT Teacher | High School"</span>,</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="exp4">"03.2021 – 05.2024 : Private Programming Lessons"</span>,</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string" id="exp5">"09.2020 – 06.2024 : IT Support | High School of St. Paul"</span></p>
         <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
         <p>&nbsp;&nbsp;}</p>
         <p>}</p>
@@ -109,7 +109,7 @@
 
   <!-- Footer -->
   <div class="footer" style="bottom: -1300px;">
-    Copyright © 2025 Mikołaj Polecki. All rights reserved.
+    <span id="footer-text">Copyright © 2025 Mikołaj Polecki. All rights reserved.</span>
   </div>
 
   <!-- Add Particles.js library -->
@@ -117,5 +117,6 @@
   <script src="script.js"></script>
   <script src="scroll.js"></script>
   <script src="icons-theme.js"></script>
+  <script src="language.js"></script>
 </body>
 </html>
