@@ -18,16 +18,16 @@
 
   <!-- Navigation -->
   <div class="nav-bar">
-    <a href="./">Home</a>
-    <a href="./#about">About Me</a>
-    <a href="./work">Portfolio</a>
-    <a>Contact</a>
-    <a href="./contactpl"><img src="images/languages/pl.png" alt="Zmień język na polski"></a>
+    <a href="./" id="home">Home</a>
+    <a href="./#about" class="scroll-link" id="about-link">About Me</a>
+    <a href="./work" id="portfolio">Portfolio</a>
+    <a href="./contact" id="contact">Contact</a>
+    <a id="language-toggle"><img src="images/languages/pl.png" alt="Change language"></a>
   </div>
 
   <!-- Text -->
   <div class="center-text">
-    If you'd like, <span class="name">let's chat :)</span>
+    <span id="hello">If you'd like, <span class="name">let's chat :)</span></span><br>
     <div class="contact-icons">
         <a href="https://github.com/PejperO" target="_blank">
             <i class="fab fa-github"></i>
@@ -56,12 +56,13 @@
 
   <!-- Footer -->
   <div class="footer" style="bottom: 5px;">
-    Copyright © 2025 Mikołaj Polecki. All rights reserved.
+    <span id="footer-text">Copyright © 2025 Mikołaj Polecki. All rights reserved.</span>
   </div>
 
   <!-- Add Particles.js library -->
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script src="script.js"></script>
   <script src="icons-theme.js"></script>
+  <script src="language_contact.js"></script>
 </body>
 </html>
