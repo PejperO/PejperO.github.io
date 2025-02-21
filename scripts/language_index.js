@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("about-link").innerText = "O mnie";
             document.getElementById("portfolio").innerText = "Prace";
             document.getElementById("contact").innerText = "Kontakt";
-            document.getElementById("scroll-text").innerText = "Przewiń";
             document.getElementById("hello").innerText = "Hello World!";
             document.getElementById("intro").innerHTML = 'Nazywam się <span class="name">Mikołaj Polecki</span>';
             document.getElementById("about-text").innerText = "Pracowity programista z Pasją";
@@ -35,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("exp4").innerText = "03.2021 – 05.2024 : Prywatne lekcje programowania";
             document.getElementById("exp5").innerText = "09.2020 – 06.2024 : IT Support | Liceum Pawła z Tarsu";
 
-            langImg.src = "images/languages/en.png";
+            langImg.src = "assets/images/en.png";
             langImg.alt = "Change language to English";
         } else {
             document.documentElement.lang = "en";
@@ -43,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("about-link").innerText = "About Me";
             document.getElementById("portfolio").innerText = "Portfolio";
             document.getElementById("contact").innerText = "Contact";
-            document.getElementById("scroll-text").innerText = "Scroll";
             document.getElementById("hello").innerText = "Hello World!";
             document.getElementById("intro").innerHTML = 'My name is <span class="name">Mikołaj Polecki</span>';
             document.getElementById("about-text").innerText = "A hardworking programmer with passion";
@@ -67,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("exp4").innerText = "03.2021 – 05.2024 : Private Programming Lessons";
             document.getElementById("exp5").innerText = "09.2020 – 06.2024 : IT Support | High School of St. Paul";
 
-            langImg.src = "images/languages/pl.png";
+            langImg.src = "assets/images/pl.png";
             langImg.alt = "Zmień język na polski";
         }
     }

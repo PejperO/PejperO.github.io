@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("about-link").innerText = "O mnie";
             document.getElementById("portfolio").innerText = "Prace";
             document.getElementById("contact").innerText = "Kontakt";
-            document.getElementById("scroll-text").innerText = "Przewiń";
             document.getElementById("hello").innerHTML = 'Wszystkie prace, zrobione dla zabawy, są na moim <span class="name"><a href="https://github.com/PejperO" target="_blank">GitHub</a></span>';
             document.getElementById("intro").innerHTML = "To są moje ulubione:";
             document.getElementById("footer-text").innerText = "Copyright © 2025 Mikołaj Polecki. Wszelkie prawa zastrzeżone.";
@@ -125,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <a href="https://github.com/PejperO/Pizza_Ordering_Website" target="_blank">Zobacz Projekt</a>
             `;
 
-            langImg.src = "images/languages/en.png";
+            langImg.src = "assets/images/en.png";
             langImg.alt = "Change language to English";
         } else {
             document.documentElement.lang = "en";
@@ -133,7 +132,6 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("about-link").innerText = "About Me";
             document.getElementById("portfolio").innerText = "Portfolio";
             document.getElementById("contact").innerText = "Contact";
-            document.getElementById("scroll-text").innerText = "Scroll";
             document.getElementById("hello").innerHTML = 'All my personal projects are available on my <span class="name"><a href="https://github.com/PejperO" target="_blank">GitHub</a></span>';
             document.getElementById("intro").innerHTML = "Here are my favorites:";
             document.getElementById("footer-text").innerText = "Copyright © 2025 Mikołaj Polecki. All rights reserved.";
@@ -240,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 <a href="https://github.com/PejperO/Pizza_Ordering_Website" target="_blank">View Project</a>
             `;
 
-            langImg.src = "images/languages/pl.png";
+            langImg.src = "assets/images/pl.png";
             langImg.alt = "Zmień język na polski";
         }
     }

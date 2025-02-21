@@ -3,7 +3,7 @@ function updateFavicon() {
     const darkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
     // Poprawiona ścieżka do favicony
-    const faviconPath = darkMode ? "images/logo/icon-black.png" : "images/logo/icon-white.png";
+    const faviconPath = darkMode ? "assets/icons/icon-black.png" : "assets/icons/icon-white.png";
 
     setFavicon(faviconPath);
 }
