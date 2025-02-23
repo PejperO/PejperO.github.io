@@ -2,7 +2,7 @@
 
 ## Introduction
 The project is a portfolio website (PejperO) showcasing my skills, projects, and contact information.
-The site is built using HTML, CSS, and JavaScript, utilizing the particles.js library for background animation—due to the requirement that the site must be static.
+The site is built using HTML, CSS, and JavaScript, utilizing the particles.js library for background animation — due to the requirement that the site must be static.
 The project is responsive, adapts to system themes (dark/light), and includes features such as smooth scrolling, language switching, and a custom cursor.
 
 ## Project Structure
@@ -10,33 +10,34 @@ The project is responsive, adapts to system themes (dark/light), and includes fe
 
     /PejperO.github.io
     │── /assets                      # Static assets
-    │   │── /images                  # Images (flags, branding)
-    │   │   ├── en.png
-    │   │   ├── pl.png
-    │   │   ├── logo.png      
     │   │── /icons                   # UI icons
     │   │   ├── icon-black.png
     │   │   ├── icon-white.png
+    │   │   ├── icons-theme.js       # Icon change script
+    │   │── /images                  # Images (flags, branding)
+    │   │   ├── en.png
+    │   │   ├── logo.png
+    │   │   ├── pl.png      
     │   │── /projects                # Project images
     │   │   ├── project1.png
     │   │   ├── project2.png
     │   │   ├── project3.png
     │   │   ├── ...
-    │── /styles                      # Stylesheets
-    │   ├── styles.css
     │── /scripts                     # JavaScript scripts
     │   ├── language_contact.js
     │   ├── language_index.js
     │   ├── language_work.js
     │   ├── particle.js
     │   ├── scroll.js
-    ├── contact.html
-    ├── work.html
-    │── index.html                   # Homepage
+    │── /styles                      # Stylesheets
+    │   ├── styles.css
     │── CNAME                        # File for GitHub Pages
-    │── README                       # What you are reading now :)
     │── LICENSE                      # GNU (AGPL) License
-    
+    │── README.md                    # What you are reading now :)
+    ├── contact.html
+    │── index.html                   # Homepage
+    ├── work.html
+
 
 ## Main Features
 ### 1. Particle Animation (particles.js)
@@ -138,7 +139,7 @@ Style for the custom cursor that replaces the default mouse pointer
         e.preventDefault();
         const targetId = this.getAttribute('href').substring(1);
         const targetElement = document.getElementById(targetId);
-    
+
         if (targetElement) {
           targetElement.scrollIntoView({
             behavior: 'smooth', // Smooth scrolling
