@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>Stworzyłem również nowe logo od podstaw, dostosowując identyfikację wizualną studia do nowoczesnych trendów, jednocześnie zachowując unikalny styl i preferencje właściciela.</p>
                 <p><span>Funkcje:</span></p>
                 <ul>
-                    <li>Portfolio: Galeria prezentująca różne projekty.</li>
-                    <li>Usługi: Szczegółowy opis oferty firmy.</li>
-                    <li>O nas: Wgląd w podejście architekta do projektowania.</li>
+                    <li><strong>Portfolio:</strong> Galeria prezentująca różne projekty.</li>
+                    <li><strong>Usługi:</strong> Szczegółowy opis oferty firmy.</li>
+                    <li><strong>O nas:</strong> Wgląd w podejście architekta do projektowania.</li>
                 </ul>
                 <a href="https://applus.pl" target="_blank">Zobacz Projekt</a>
             `;
@@ -101,11 +101,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>Kompleksowy system do zarządzania pizzerią, obejmujący zarządzanie menu, śledzenie składników, planowanie pracy personelu, zamówienia klientów i śledzenie zamówień w czasie rzeczywistym.</p>
                 <p><span>Cechy:</span></p>
                 <ul>
-                  <li>Zarządzanie menu: Twórz, aktualizuj i organizuj pozycje menu restauracji.</li>
-                  <li>Zarządzanie składnikami: Śledź dostępne składniki i poziomy zapasów.</li>
-                  <li>Zarządzanie pracownikami: Zarządzaj harmonogramami, rolami i obowiązkami pracowników.</li>
-                  <li>Zarządzanie klientami: Rejestruj zamówienia i preferencje klientów w celu zapewnienia spersonalizowanej obsługi.</li>
-                  <li>Śledzenie zamówień: Śledź status zamówień w czasie rzeczywistym od początku do dostawy.</li>
+                  <li><strong>Zarządzanie menu:</strong> Twórz, aktualizuj i organizuj pozycje menu restauracji.</li>
+                  <li><strong>Zarządzanie składnikami:</strong> Śledź dostępne składniki i poziomy zapasów.</li>
+                  <li><strong>Zarządzanie pracownikami:</strong> Zarządzaj harmonogramami, rolami i obowiązkami pracowników.</li>
+                  <li><strong>Zarządzanie klientami:</strong> Rejestruj zamówienia i preferencje klientów w celu zapewnienia spersonalizowanej obsługi.</li>
+                  <li><strong>Śledzenie zamówień:</strong> Śledź status zamówień w czasie rzeczywistym od początku do dostawy.</li>
                 </ul>
                 <a href="https://github.com/PejperO/PizzeriaManager" target="_blank">Zobacz Projekt</a>
             `;
@@ -113,15 +113,17 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("project8-title").innerText = "Strona do zamawiania pizzy";
             document.getElementById("project8-desc").innerHTML = `
                 <p><span>Przegląd:</span></p>
-                <p>Ten projekt to kompleksowa aplikacja internetowa do zamawiania pizzy, składająca się z front-endu, back-endu i bazy danych.</p>
+                <p>Statyczna witryna portfolio zaprojektowana w celu zaprezentowania moich umiejętności, projektów i danych kontaktowych. Witryna jest zbudowana przy użyciu HTML, CSS i JavaScript, z biblioteką particles.js do animacji tła.</p>
+                <p>Strona składa się z trzech głównych sekcji: strony głównej, portfolio oraz strony kontaktowej, zapewniając czyste i interaktywne doświadczenia.</p>
                 <p><span>Cechy:</span></p>
                 <ul>
-                  <li><strong>Restauracje:</strong> Lista restauracji pobrana z bazy danych, w której użytkownicy mogą składać zamówienia.</li>
-                  <li><strong>Konta użytkowników:</strong> Użytkownicy mogą się rejestrować, logować i zarządzać preferencjami składania zamówień.</li>
-                  <li><strong>Konta administratorów:</strong> Administratorzy mogą zarządzać użytkownikami, zamówieniami i restauracjami, z możliwością modyfikowania zamówień.</li>
-                  <li><strong>Konta restauracji:</strong> Menedżerowie mogą modyfikować pozycje menu, dostosowywać ceny i aktualizować statusy zamówień.</li>
+                  <li><strong>Responsywność:</strong> Dostosowanie do różnych rozdzielczości ekranów i motywów systemowych (ciemny/jasny).</li>
+                  <li><strong>Płynne przewijanie:</strong> Intuicyjna nawigacja między sekcjami.</li>
+                  <li><strong>Zmiana języka:</strong> Obsługa dwóch języków z zapisywaniem wyboru użytkownika.</li>
+                  <li><strong>Niestandardowy kursor:</strong> Biała kropka z poświatą zastępująca domyślny kursor myszki.</li>
+                  <li><strong>Animacje cząsteczek:</strong> Dynamiczne tło reagujące na ruch myszki.</li>
                 </ul>
-                <a href="https://github.com/PejperO/Pizza_Ordering_Website" target="_blank">Zobacz Projekt</a>
+                <a href="https://github.com/PejperO/PejperO.github.io" target="_blank">Zobacz Projekt</a>
             `;
 
             langImg.src = "assets/images/en.png";
@@ -146,9 +148,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>I also created a new logo from scratch, aligning the studio's visual identity with modern trends while maintaining the unique style and preferences of the owner.</p>
                 <p><span>Features:</span></p>
                 <ul>
-                  <li>Portfolio: A gallery showcasing various projects.</li>
-                  <li>Services: A detailed description of the firm's offerings.</li>
-                  <li>About Us: Insights into the architect's approach to design.</li>
+                  <li><strong>Portfolio:</strong> A gallery showcasing various projects.</li>
+                  <li><strong>Services:</strong> A detailed description of the firm's offerings.</li>
+                  <li><strong>About Us:</strong> Insights into the architect's approach to design.</li>
                 </ul>
                 <a href="https://applus.pl" target="_blank">View Project</a>
             `;
@@ -215,27 +217,29 @@ document.addEventListener("DOMContentLoaded", function() {
                 <p>A comprehensive system for managing pizzerias, covering menu management, ingredient tracking, staff scheduling, customer orders, and real-time order tracking.</p>
                 <p><span>Features:</span></p>
                 <ul>
-                  <li>Menu Management: Create, update, and organize restaurant menu items.</li>
-                  <li>Ingredient Management: Track available ingredients and inventory levels.</li>
-                  <li>Employee Management: Manage schedules, roles, and employee responsibilities.</li>
-                  <li>Customer Management: Record customer orders and preferences to provide personalized service.</li>
-                  <li>Order Tracking: Monitor order statuses in real-time from initiation to delivery.</li>
+                  <li><strong>Menu Management:</strong> Create, update, and organize restaurant menu items.</li>
+                  <li><strong>Ingredient Management:</strong> Track available ingredients and inventory levels.</li>
+                  <li><strong>Employee Management:</strong> Manage schedules, roles, and employee responsibilities.</li>
+                  <li><strong>Customer Management:</strong> Record customer orders and preferences to provide personalized service.</li>
+                  <li><strong>Order Tracking:</strong> Monitor order statuses in real-time from initiation to delivery.</li>
                 </ul>
                 <a href="https://github.com/PejperO/PizzeriaManager" target="_blank">View Project</a>
             `;
 
-            document.getElementById("project8-title").innerText = "Pizza Ordering Website";
+            document.getElementById("project8-title").innerText = "portfolio website";
             document.getElementById("project8-desc").innerHTML = `
                 <p><span>Overview:</span></p>
-                <p>A full-stack web app for ordering pizza, featuring user and admin accounts, menu customization, and order management.</p>
+                <p>This project is a static portfolio website designed to showcase my skills, projects, and contact information. The site is built using HTML, CSS, and JavaScript, with the particles.js library for background animations.</p>
+                <p>The website consists of three main sections: a homepage, a portfolio, and a contact page, providing a clean and interactive user experience.</p>
                 <p><span>Features:</span></p>
                 <ul>
-                  <li><strong>Restaurants:</strong> A list of restaurants retrieved from the database where users can place orders.</li>
-                  <li><strong>User Accounts:</strong> Users can register, log in, and manage their order preferences.</li>
-                  <li><strong>Admin Accounts:</strong> Admins can manage users, orders, and restaurants, with the ability to modify orders.</li>
-                  <li><strong>Restaurant Accounts:</strong> Managers can edit menu items, adjust prices, and update order statuses.</li>
+                  <li><strong>Responsiveness:</strong> Adapts to different screen resolutions and system themes (dark/light).</li>
+                  <li><strong>Smooth Scrolling:</strong> Intuitive navigation between sections.</li>
+                  <li><strong>Language Switching:</strong> Supports two languages (English and Polish) with user preference saved.</li>
+                  <li><strong>Custom Cursor:</strong> A glowing white dot replaces the default mouse cursor.</li>
+                  <li><strong>Particle Animations:</strong> Dynamic background that reacts to mouse movement.</li>
                 </ul>
-                <a href="https://github.com/PejperO/Pizza_Ordering_Website" target="_blank">View Project</a>
+                <a href="https://github.com/PejperO/PejperO.github.io" target="_blank">View Project</a>
             `;
 
             langImg.src = "assets/images/pl.png";
