@@ -1,212 +1,124 @@
-![2025-02-21 23-51-54_1](https://github.com/user-attachments/assets/98b7e739-b3e4-4772-9f60-accabdc779d7)
+# PejperO Portfolio Website
 
-## Introduction
-The project is a portfolio website (PejperO) showcasing my skills, projects, and contact information.
-The site is built using HTML, CSS, and JavaScript, utilizing the particles.js library for background animation — due to the requirement that the site must be static.
-The project is responsive, adapts to system themes (dark/light), and includes features such as smooth scrolling, language switching, and a custom cursor.
+A modern, customizable portfolio website built with Node.js and React. Easily showcase your projects, manage multilingual content, and extend with new pages or styles.
 
-## Project Structure
-### Directory Tree
+---
 
-    /PejperO.github.io
-    │── /assets                      # Static assets
-    │   │── /icons                   # UI icons
-    │   │   ├── icon-black.png
-    │   │   ├── icon-white.png
-    │   │   ├── icons-theme.js       # Icon change script
-    │   │── /images                  # Images (flags, branding)
-    │   │   ├── en.png
-    │   │   ├── logo.png
-    │   │   ├── pl.png      
-    │   │── /projects                # Project images
-    │   │   ├── project1.png
-    │   │   ├── project2.png
-    │   │   ├── project3.png
-    │   │   ├── ...
-    │── /scripts                     # JavaScript scripts
-    │   ├── language_contact.js
-    │   ├── language_index.js
-    │   ├── language_work.js
-    │   ├── particle.js
-    │   ├── scroll.js
-    │── /styles                      # Stylesheets
-    │   ├── styles.css
-    │── CNAME                        # File for GitHub Pages
-    │── LICENSE                      # GNU (AGPL) License
-    │── README.md                    # What you are reading now :)
-    ├── contact.html
-    │── index.html                   # Homepage
-    ├── work.html
+## 🚀 Features
+- Custom React implementation (no external frameworks)
+- Multilingual support (edit `public/langs.json`)
+- Easy project management (edit `public/portfolio.json`)
+- Simple global styling with Tailwind CSS
+- Modular page and component structure
 
+---
 
-## Main Features
-### 1. Particle Animation (particles.js)
- - The site background includes animated particles that react to mouse movement
- - Particle configuration is located in the `particle.js` file
+## 📑 Table of Contents
+- [Getting Started](#getting-started)
+- [Editing Languages](#editing-languages)
+- [Adding Projects to Portfolio](#adding-projects-to-portfolio)
+- [Global Styles](#global-styles)
+- [Adding a New Page](#adding-a-new-page)
+- [Contributing](#contributing)
+- [License](#license)
 
-### 2. Custom Cursor
- - The standard cursor is replaced with a white dot with a glow effect
- - The cursor follows mouse movements in real-time
+---
 
-### 3. Smooth Scrolling
- - Clicking on navigation links smoothly scrolls to the corresponding section
- - Functionality implemented in the `scroll.js` file.
+## 🛠️ Getting Started
 
-### 4. Language Switching
- - The site supports two languages: English and Polish
- - The user can switch languages, and the selection is saved in localStorage
- - Language-switching scripts are located in `language_contact.js`, `language_index.js`, and `language_work.js`
+### Prerequisites
+- **Node.js** v20.12.2
+- **npm** v10.9.2
 
-### 5. Responsiveness & Theme Adaptation
- - The site adapts to the system theme (dark/light mode)
- - The site favicon changes based on the theme (`files icon-black.png` and `icon-white.png`).
+### Install Packages
+```bash
+npm install
+```
 
-## Key Files
-### styles.css
- - Contains styles for the entire site, including:
-   - Color scheme (dark theme with blue accents)
-   - Animations (e.g., cursor, scrolling)
-   - Section layout (e.g., navigation, "About Me" section, projects)
+### Run in Developer Mode
+```bash
+npm run dev
+```
 
-### index.html
- - The homepage with sections:
-    - **About Me:** Information about the author, skills, education, and experience
-    - **Portfolio:** Links to projects with descriptions and images
-    - **Contact:** Links to GitHub, LinkedIn, Facebook, and email
+### Build Project
+```bash
+npm run build
+```
+- Output will be in the `dist` directory.
 
-### work.html
- - The portfolio page containing a list of projects, descriptions, and links to GitHub repositories
+---
 
-### contact.html
- - The contact page with information on how to reach me
+## 🌐 Editing Languages
+Edit `public/langs.json` to add or update languages. The first language listed is the default.
 
-## Code Examples
-
-### 1. Particle Animation (particle.js)
-```js
-particlesJS("particles-js", {
-  particles: {
-    number: { value: 100, density: { enable: true, value_area: 800 } },
-    color: { value: "#ffffff" },
-    shape: { type: "circle" },
-    opacity: { value: 0.5, random: false },
-    size: { value: 3, random: true },
-    line_linked: { enable: true, distance: 150, color: "#ffffff", opacity: 0.4, width: 1 },
-    move: { enable: true, speed: 1.3, direction: "none" }
+```json
+{
+  "en": {
+    "title": "Title",
+    "description": "Description"
+  },
+  "pl": {
+    "title": "Tytuł",
+    "description": "Opis"
   }
-});
-```
-Particle animation configuration for the site background
-
-### 2.  Language Switching (language_index.js)
-```js
-function updateLanguage() {
-    if (lang === "pl") {
-        document.documentElement.lang = "pl";
-        document.getElementById("home").innerText = "Start";
-        document.getElementById("about-link").innerText = "O mnie";
-        // ... other translations
-    } else {
-        document.documentElement.lang = "en";
-        document.getElementById("home").innerText = "Home";
-        document.getElementById("about-link").innerText = "About Me";
-        // ... other translations
-    }
 }
 ```
-The `updateLanguage()` function changes the text on the site depending on the selected language
 
-### 3. Custom Cursor (styles.css)
-```css
-.custom-cursor {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
-  z-index: 1000;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+---
+
+## 🖼️ Adding Projects to Portfolio
+Edit `public/portfolio.json` to add new projects. Include translations for each language in the same file.
+
+```json
+{
+  "title": "Chess App with Local Network Play",
+  "img": "public/assets/projects/Chess2D.png",
+  "subtitle": "Project for Engineering Degree (B.Eng.)",
+  "overview": [
+    "This project focuses on developing a chess application in Java with a graphical interface..."
+  ],
+  "features": []
 }
 ```
-Style for the custom cursor that replaces the default mouse pointer
 
-### 4. Smooth Scrolling (scroll.js)
-```js
-    document.querySelectorAll('.scroll-link').forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
+---
 
-        if (targetElement) {
-          targetElement.scrollIntoView({
-            behavior: 'smooth', // Smooth scrolling
-            block: 'start'
-          });
-        }
-      });
-    });
+## 🎨 Global Styles
+Edit `src/app/global.css` to add or modify global styles.
+
+---
+
+## 📄 Adding a New Page
+1. Create a new file or folder in `src/app` (e.g., `src/app/About/index.tsx`).
+2. Example page component:
+
+```tsx
+import React from 'react';
+
+export default function About() {
+  return (
+    <div>
+      <h1>About Page</h1>
+      <p>This is the about page.</p>
+    </div>
+  );
+}
 ```
-This script handles smooth scrolling to a section when clicking a link with the `.scroll-link` class
 
-## Feature Table
+3. Add a route in `src/app/root.tsx`:
+```tsx
+import Home from "./Home";
+import Contact from "./Contact";
+import Portfolio from "./Portfolio";
+import About from "./About";
 
-| Feature                  | Description                               | File/Technology             |
-|--------------------------|-------------------------------------------|-----------------------------|
-| Particle Animation       | Background with animated particles        | `particles.js`, `particle.js` |
-| Custom Cursor            | White dot with a glow effect              | `styles.css`, `particle.js`   |
-| Smooth Scrolling         | Smooth transitions to sections            | `scroll.js`                 |
-| Language Switching       | Toggle between English and Polish         | `language_*.js`             |
-| Responsiveness           | Adapts to different screen sizes          | `styles.css`                |
-| Favicon                  | Page icon changes with the theme          | `icons-theme.js`            |
+<BrowserRouter>
+  <Router src="/" component={<Home />} default />
+  <Router src="/contact" component={<Contact />} />
+  <Router src="/portfolio" component={<Portfolio />} />
+  <Router src="/about" component={<About />} />
+</BrowserRouter>
+```
 
-## Technologies
-- **HTML**: Structure of the site
-- **CSS**: Styling and responsiveness
-- **JavaScript**: Interactivity and animations
-- **Particles.js**: Background animation
-- **Git**: Version control and deployment
-
-## Future Plans
- - Improving responsiveness and cross-device compatibility
-    - Adjusting the website’s appearance for different screen resolutions to ensure a consistent user experience across all devices
- - Optimization for mobile devices
-    - Creating a version of the site specifically adapted for smartphones and tablets to enhance usability on smaller screens
- - Consolidation of language files
-    - Merging language-related files to simplify translation management and improve performance
- - Optimization of graphics and text layout
-    - Adjusting project images to match the amount of text, improving readability and the overall aesthetics of the portfolio section
- - Photo gallery
-    - Adding a gallery feature to allow browsing projects in a slideshow format
- - Page transition animations
-    - Introducing smooth animations between sections to improve navigation flow and user experience
- - Simplifying the "Code" section
-    - Changing the background of the "Code" section to a solid color to enhance text readability and reduce distractions
-
-## How to Run the Project Locally
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PejperO/PejperO.github.io.git
-   ```
-3. Open the `index.html` file in your browser
-
-## What I Learned
-### Technologies and Skills
-- **HTML/CSS**: Creating responsive and visually appealing websites
-- **JavaScript**: Implementing interactive functionalities such as smooth scrolling and language switching
-- **Particles.js**: Creating animated backgrounds
-- **LocalStorage**: Saving user preferences
-- **Git**: Version control and publishing on GitHub Pages
-- **Responsywność**: Adapting the site to different devices and system themes
-
-### Design i UX
- - **Niestandardowy kursor:** Enhancing user experience with unique interface elements
- - **Płynne przewijanie:** Improving navigation fluidity
- - **Motyw kolorystyczny:** Consistent color scheme and adaptation to user preferences (dark/light mode)
-
-## License
-This project is licensed under the GNU Affero General Public License (AGPL).
-This means that it can be freely copied, modified, and distributed, provided that the source code of any modified versions is also made available under the same license.
-The full license text can be found in the [LICENSE](LICENSE) file.
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
