@@ -19,7 +19,6 @@ A modern, customizable portfolio website built with Node.js and React. Easily sh
 - [Adding Projects to Portfolio](#adding-projects-to-portfolio)
 - [Global Styles](#global-styles)
 - [Adding a New Page](#adding-a-new-page)
-- [Contributing](#contributing)
 - [License](#license)
 
 ---
