@@ -71,7 +71,7 @@ Edit `public/portfolio.json` to add new projects. Include translations for each 
 ```json
 {
   "title": "Chess App with Local Network Play",
-  "img": "public/assets/projects/Chess2D.png",
+  "img": "/public/assets/projects/Chess2D.png",
   "subtitle": "Project for Engineering Degree (B.Eng.)",
   "overview": [
     "This project focuses on developing a chess application in Java with a graphical interface..."

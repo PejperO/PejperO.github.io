@@ -7,14 +7,16 @@ import { useLang } from "../../hooks/useLang";
 
 const SocialLink = ({ icon, text, link }: { icon: IconType; text: string; link: string }) => {
     return (
-        <a
-            href={link}
-            target="_blank"
-            className="flex gap-2 items-center transition duration-300 hover:text-blue-500"
-        >
+        <div className="flex gap-2 items-center">
             <Icon icon={icon} />
-            {text}
-        </a>
+            <a
+                href={link}
+                target="_blank"
+                className="items-center transition duration-300 hover:text-blue-500 z-10"
+            >
+                {text}
+            </a>
+        </div>
     );
 };
 

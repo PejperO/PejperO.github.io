@@ -19,7 +19,7 @@ export const useTheme = () => {
 
     useEffect(() => {
         if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            changeFavicon("public/assets/icons/icon-white.png");
+            changeFavicon("/public/assets/icons/icon-white.png");
         }
     }, [window.matchMedia("(prefers-color-scheme: dark)").matches]);
 

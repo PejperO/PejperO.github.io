@@ -2,7 +2,7 @@
     "en": [
         {
             "title": "Chess App with Local Network Play",
-            "img": "public/assets/projects/Chess2D.png",
+            "img": "/public/assets/projects/Chess2D.png",
             "subtitle": "Project for Engineering Degree (B.Eng.)",
             "overview": [
                 "This project focuses on developing a chess application in Java with a graphical interface. It supports local and networked gameplay (localhost), game analysis, and saving/loading games from a database. Inspired by platforms like Chess.com and Lichess.org, the prototype showcases Java's capabilities in implementing fundamental features such as game resetting, board flipping, and analysis."
@@ -37,11 +37,11 @@
                 }
             ],
             "link": "https://github.com/PejperO/PizzeriaManager",
-            "img": "public/assets/projects/pizzeria.png"
+            "img": "/public/assets/projects/pizzeria.png"
         },
         {
             "title": "Website and Logo Design for an Architecture Studio",
-            "img": "public/assets/projects/applus_main_trimmed.png",
+            "img": "/public/assets/projects/applus_main_trimmed.png",
             "overview": [
                 "I designed a website for an architecture studio, adhering to principles of minimalism and the owner's specific guidelines. The site features a carefully curated color palette reflecting the architect's vision and preferences.",
                 "I also created a new logo from scratch, aligning the studio's visual identity with modern trends while maintaining the unique style and preferences of the owner."
@@ -62,7 +62,7 @@
         {
             "title": "Portfolio website",
             "subtitle": "",
-            "img": "public/assets/projects/portfolio.png",
+            "img": "/public/assets/projects/portfolio.png",
             "overview": [
                 "This project is a static portfolio website designed to showcase my skills, projects, and contact information. The site is built using HTML, CSS, and JavaScript, with the particles.js library for background animations.",
                 "The website consists of three main sections: a homepage, a portfolio, and a contact page, providing a clean and interactive user experience."
@@ -94,7 +94,7 @@
         {
             "title": "Deep Learning and Advanced Models",
             "subtitle": "",
-            "img": "public/assets/projects/python.png",
+            "img": "/public/assets/projects/python.png",
             "overview": [
                 "These projects focus on applying deep learning techniques to complex problems using modern neural network architectures:"
             ],
@@ -119,7 +119,7 @@
         {
             "title": "Classic Machine Learning and Core Techniques",
             "subtitle": "",
-            "img": "public/assets/projects/voting_classifier.png",
+            "img": "/public/assets/projects/voting_classifier.png",
             "overview": [
                 "These projects explore traditional machine learning approaches, emphasizing fundamental concepts and manual implementations:"
             ],
@@ -141,7 +141,7 @@
             "title": "Poker Calculator (Educational Project)",
             "disclamer": "This project is for educational purposes only and does not encourage gambling.",
             "subtitle": "",
-            "img": "public/assets/projects/poker.png",
+            "img": "/public/assets/projects/poker.png",
             "overview": [
                 "An Android app built with Kotlin for calculating and managing poker players' balances. Features include player management, rebuy tracking, and modern UI design."
             ],
@@ -157,7 +157,7 @@
         {
             "title": "Weather Wiki",
             "subtitle": "",
-            "img": "public/assets/projects/weather-wiki.png",
+            "img": "/public/assets/projects/weather-wiki.png",
             "overview": [
                 "Utilizing OpenWeatherMap and exchangerate.host APIs, this app provides weather data, Wikipedia info, and currency exchange rates for selected cities."
             ],
@@ -184,7 +184,7 @@
     "pl": [
         {
             "title": "Chess App with Local Network Play (pl)",
-            "img": "public/assets/projects/Chess2D.png",
+            "img": "/public/assets/projects/Chess2D.png",
             "subtitle": "Project for Engineering Degree (B.Eng.)",
             "overview": [
                 "This project focuses on developing a chess application in Java with a graphical interface. It supports local and networked gameplay (localhost), game analysis, and saving/loading games from a database. Inspired by platforms like Chess.com and Lichess.org, the prototype showcases Java's capabilities in implementing fundamental features such as game resetting, board flipping, and analysis."
@@ -219,11 +219,11 @@
                 }
             ],
             "link": "https://github.com/PejperO/PizzeriaManager",
-            "img": "public/assets/projects/pizzeria.png"
+            "img": "/public/assets/projects/pizzeria.png"
         },
         {
             "title": "Website and Logo Design for an Architecture Studio",
-            "img": "public/assets/projects/applus_main_trimmed.png",
+            "img": "/public/assets/projects/applus_main_trimmed.png",
             "overview": [
                 "I designed a website for an architecture studio, adhering to principles of minimalism and the owner's specific guidelines. The site features a carefully curated color palette reflecting the architect's vision and preferences.",
                 "I also created a new logo from scratch, aligning the studio's visual identity with modern trends while maintaining the unique style and preferences of the owner."
@@ -244,7 +244,7 @@
         {
             "title": "Portfolio website",
             "subtitle": "",
-            "img": "public/assets/projects/portfolio.png",
+            "img": "/public/assets/projects/portfolio.png",
             "overview": [
                 "This project is a static portfolio website designed to showcase my skills, projects, and contact information. The site is built using HTML, CSS, and JavaScript, with the particles.js library for background animations.",
                 "The website consists of three main sections: a homepage, a portfolio, and a contact page, providing a clean and interactive user experience."
@@ -276,7 +276,7 @@
         {
             "title": "Deep Learning and Advanced Models",
             "subtitle": "",
-            "img": "public/assets/projects/python.png",
+            "img": "/public/assets/projects/python.png",
             "overview": [
                 "These projects focus on applying deep learning techniques to complex problems using modern neural network architectures:"
             ],
@@ -301,7 +301,7 @@
         {
             "title": "Classic Machine Learning and Core Techniques",
             "subtitle": "",
-            "img": "public/assets/projects/voting_classifier.png",
+            "img": "/public/assets/projects/voting_classifier.png",
             "overview": [
                 "These projects explore traditional machine learning approaches, emphasizing fundamental concepts and manual implementations:"
             ],
@@ -323,7 +323,7 @@
             "title": "Poker Calculator (Educational Project)",
             "disclamer": "This project is for educational purposes only and does not encourage gambling.",
             "subtitle": "",
-            "img": "public/assets/projects/poker.png",
+            "img": "/public/assets/projects/poker.png",
             "overview": [
                 "An Android app built with Kotlin for calculating and managing poker players' balances. Features include player management, rebuy tracking, and modern UI design."
             ],
@@ -339,7 +339,7 @@
         {
             "title": "Weather Wiki",
             "subtitle": "",
-            "img": "public/assets/projects/weather-wiki.png",
+            "img": "/public/assets/projects/weather-wiki.png",
             "overview": [
                 "Utilizing OpenWeatherMap and exchangerate.host APIs, this app provides weather data, Wikipedia info, and currency exchange rates for selected cities."
             ],

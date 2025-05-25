@@ -24,7 +24,7 @@
         "exp4": "03.2021 – 05.2024 : Private Programming Lessons",
         "exp5": "09.2020 – 06.2024 : IT Support | High School of St. Paul",
         "flag": {
-            "src": "public/assets/images/pl.png",
+            "src": "/public/assets/images/pl.png",
             "alt": "Zmień język na polski"
         },
 
@@ -35,7 +35,7 @@
 
         "portfolio": {
             "title": "Portfolio",
-            "hello": "All my personal projects are available on my <a class='text-blue-500 font-bold text-3xl' href='https://github.com/PejperO' target'_blank'>GitHub</a>",
+            "hello": "All my personal projects are available on my <a class='text-blue-500 font-bold text-3xl' href='https://github.com/PejperO' target='_blank'>GitHub</a>",
             "intro": "Here are my favorites: "
         }
     },
@@ -64,7 +64,7 @@
         "exp4": "03.2021 – 05.2024 : Prywatne lekcje programowania",
         "exp5": "09.2020 – 06.2024 : IT Support | Liceum Pawła z Tarsu",
         "flag": {
-            "src": "public/assets/images/en.png",
+            "src": "/public/assets/images/en.png",
             "alt": "Change language to English"
         },
 
