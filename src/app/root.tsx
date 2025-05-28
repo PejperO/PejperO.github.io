@@ -14,7 +14,6 @@ import { Cursor } from "../components/Cursor";
 import { useTheme } from "../hooks/useTheme";
 
 export default function Root() {
-
     useTheme();
 
     return (

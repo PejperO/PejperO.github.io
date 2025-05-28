@@ -7,7 +7,7 @@
     "homepage": "https://pejpero.com/",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist",
+        "deploy": "gh-pages -d dist -b page",
         "docker-deploy": "docker build --ssh default -t pejpero-portfolio .",
         "start": "webpack serve",
         "build": "webpack --mode production; rm dist/public/index.html; mv dist/public/*.html dist"
