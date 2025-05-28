@@ -18,6 +18,7 @@ body {
     cursor: none; /* Ukrywamy standardowy kursor */
     font-family: "Roboto Mono", monospace;
     color: #ffffff;
+    overflow-x: hidden; /* Ukrywa poziomy pasek przewijania */
 }
 
 p {
@@ -27,18 +28,11 @@ p {
 
 a{
     cursor: none;
+    transition: color 0.1s ease;
 }
 
 a:hover{
     color: #3a86ff;
-}
-
-#particles-js {
-    position: fixed; /* Tło pozostaje nieruchome */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .custom-cursor {
@@ -53,3 +47,34 @@ a:hover{
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Poświata */
 }
 
+#particles-js {
+    position: fixed; /* Tło pozostaje nieruchome */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.custom-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #464646 transparent; /* Firefox */
+
+    /* Chrome, Edge, Safari */
+    &::-webkit-scrollbar {
+        width: 4px;
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #464646;
+        border-radius: 2px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+}

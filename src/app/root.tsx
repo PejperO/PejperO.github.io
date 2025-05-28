@@ -20,7 +20,7 @@ export default function Root() {
         <div className="flex flex-col min-h-screen">
             <NavBar />
 
-            <div className="relative mt-96 mb-48 flex-grow">
+            <div className="relative pt-96 mb-48 flex-grow">
                 <BrowserRouter>
                     <Router src="/" component={<Home />} default />
                     <Router src="/contact" component={<Contact />} />

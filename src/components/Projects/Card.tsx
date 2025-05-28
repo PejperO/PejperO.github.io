@@ -12,6 +12,7 @@ export const ProjectCard = ({ project, right }: { project: Project; right: boole
                 className="w-96 rounded-lg duration-300 shadow-2xl hover:scale-105"
                 src={project.img}
                 alt={project.title}
+                onClick={() => project.link && window.open(project.link, "_blank")}
             />
             <div>
                 <h3 className="text-blue-500 text-2xl font-black mb-2">{project.title}</h3>

@@ -6,7 +6,7 @@ export const CodeSection = () => {
     const { translate } = useLang();
 
     return (
-        <div id="about" className="overflow-x-auto overflow-y-hidden z-10">
+        <div id="about" className="overflow-x-auto overflow-y-hidden z-10 custom-scrollbar">
             <div className="whitespace-nowrap">
                 {" "}
                 <p>

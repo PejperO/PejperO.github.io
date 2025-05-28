@@ -12,7 +12,7 @@ export default function Portfolio() {
     const portfolio = translate("portfolio");
 
     return (
-        <div className="relative flex flex-col justify-center w-4/5 mx-auto">
+        <div className="relative flex flex-col justify-center w-4/5 mx-auto ">
             <CenterText hello={portfolio.hello} intro={portfolio.intro} />
             <ScrollLine className="h-[60vh] lg:h-full" />
             <Projects />

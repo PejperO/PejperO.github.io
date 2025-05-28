@@ -7,12 +7,11 @@ export const Lang = () => {
     const flag = getFlag();
 
     return (
-        <button onClick={() => setLang(nextLang)}>
-            <img
-                src={flag.src}
-                alt={flag.alt}
-                className="w-[45px] h-[25px] rounded-md"
-            />
-        </button>
+        <img
+            src={flag.src}
+            alt={flag.alt}
+            className="w-[45px] h-[25px] rounded-md cursor-none"
+            onClick={() => setLang(nextLang)}
+        />
     );
 };

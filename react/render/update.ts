@@ -27,7 +27,7 @@ const isDifferent = (oldNode: ReactElement, newNode: ReactElement): boolean => {
 
     for (const key of oldPropsKeys) {
         if (!isEqual(oldProps[key], newProps[key])) {
-            console.log("Props are different", oldProps[key], newProps[key]);
+            if(IS_DEVELOPMENT) console.log("Props are different", oldProps[key], newProps[key]);
             return true;
         }
     }
@@ -184,7 +184,7 @@ const updateFunctionComponent = async (
     // Compare props to check if function needs an update;
     const oldComponent = React.components.get(oldNode.componentName!);
     if (!oldComponent) {
-        console.warn("Old component not found", oldNode, newNode);
+        if (IS_DEVELOPMENT) console.warn("Old component not found", oldNode, newNode);
         return true;
     }
 
@@ -209,8 +209,10 @@ const updateFunctionComponent = async (
     const componentName = typeof newComponent.type === "function" ? newComponent.type.name : "";
 
     if (IS_DEVELOPMENT) console.log("[ Function component ]", newComponent, oldComponent);
+    
     React.currentComponent = oldComponent;
-
+    React.currentComponent?.onUpdate();
+    
     await update({
         oldNode: oldComponent?.vNode || oldNode,
         newNode: newComponent,
@@ -223,6 +225,7 @@ const updateFunctionComponent = async (
     // TODO: if something doesn't work correctly, probably because of it
     if (oldComponent.vNode) {
         oldComponent.vNode.children = newComponent.children;
+        oldComponent.vNode.props = newComponent.props;
         oldComponent.vNode.componentName = componentName;
     }
 
