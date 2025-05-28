@@ -1,5 +1,7 @@
 import React from "react";
+import { HOMEPAGE_BRANCH } from "../../config";
 import { Project } from "./type";
+
 
 export const ProjectCard = ({ project, right }: { project: Project; right: boolean }) => {
     return (
@@ -10,7 +12,7 @@ export const ProjectCard = ({ project, right }: { project: Project; right: boole
         >
             <img
                 className="w-96 rounded-lg duration-300 shadow-2xl hover:scale-105"
-                src={project.img}
+                src={HOMEPAGE_BRANCH + project.img}
                 alt={project.title}
                 onClick={() => project.link && window.open(project.link, "_blank")}
             />

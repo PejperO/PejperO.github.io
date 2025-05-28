@@ -1,4 +1,5 @@
 import React, { useNavigate, useState } from "react";
+import { HOMEPAGE_BRANCH } from "../config";
 
 import { CiMenuBurger } from "react-icons/ci";
 
@@ -12,7 +13,7 @@ export const NavBar = () => {
     const navigate = useNavigate();
     const { translate } = useLang();
     const [isOpen, setIsOpen] = useState(false);
-    const active = window.location.pathname;
+    const active = window.location.pathname.replace(HOMEPAGE_BRANCH, "");
 
     const toggleMenu = () => setIsOpen(!isOpen);
     const closeMenu = () => setIsOpen(false);
@@ -48,13 +49,13 @@ export const NavBar = () => {
                 `}
             >
                 <hr className="md:hidden w-full h-1" />
-                <a href="/" onClick={handleRedirect} className={active === "/" ? "text-blue-500" : ""}>
+                <a href={HOMEPAGE_BRANCH + "/"} onClick={handleRedirect} className={active === "/" ? "text-blue-500" : ""}>
                     {translate("home")}
                 </a>
-                <a href="/portfolio" onClick={handleRedirect} className={active === "/portfolio" ? "text-blue-500" : ""}>
+                <a href={HOMEPAGE_BRANCH + "/portfolio"} onClick={handleRedirect} className={active === "/portfolio" ? "text-blue-500" : ""}>
                     {translate("portfolio").title}
                 </a>
-                <a href="/contact" onClick={handleRedirect} className={active === "/contact" ? "text-blue-500" : ""}>
+                <a href={HOMEPAGE_BRANCH + "/contact"} onClick={handleRedirect} className={active === "/contact" ? "text-blue-500" : ""}>
                     {translate("contact").title}
                 </a>
                 <Lang />

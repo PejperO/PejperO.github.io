@@ -1,4 +1,5 @@
 import React, { BrowserRouter, Router } from "react";
+import { HOMEPAGE_BRANCH } from "../config";
 import "./global.css";
 
 import Home from "./Home";
@@ -22,9 +23,9 @@ export default function Root() {
 
             <div className="relative pt-96 mb-48 flex-grow">
                 <BrowserRouter>
-                    <Router src="/" component={<Home />} default />
-                    <Router src="/contact" component={<Contact />} />
-                    <Router src="/portfolio" component={<Portfolio />} />
+                    <Router src={HOMEPAGE_BRANCH + "/"} component={<Home />} default />
+                    <Router src={HOMEPAGE_BRANCH + "/contact"} component={<Contact />} />
+                    <Router src={HOMEPAGE_BRANCH + "/portfolio"} component={<Portfolio />} />
                 </BrowserRouter>
             </div>
 

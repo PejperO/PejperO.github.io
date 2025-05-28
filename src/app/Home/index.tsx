@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { ScrollLine } from "../../components/ScrollLine";
 import { CenterText } from "../../components/CenterText";

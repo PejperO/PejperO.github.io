@@ -4,12 +4,13 @@
     "description": "Pejpero Portfolio website built with ft_react, TypeScript, and Tailwind CSS",
     "type": "module",
     "main": "src/app.js",
-    "homepage": "https://pejpero.com",
+    "homepage": "https://pejpero.com/",
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d dist",
+        "docker-deploy": "docker build --ssh default -t pejpero-portfolio .",
         "start": "webpack serve",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production; rm dist/public/index.html; mv dist/public/*.html dist"
     },
     "author": "",
     "license": "ISC",

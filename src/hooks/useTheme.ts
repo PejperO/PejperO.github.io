@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { HOMEPAGE_BRANCH } from "../config";
 
 export const useTheme = () => {
     const changeFavicon = (url: string) => {
@@ -19,7 +20,7 @@ export const useTheme = () => {
 
     useEffect(() => {
         if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            changeFavicon("/public/assets/icons/icon-white.png");
+            changeFavicon(`${HOMEPAGE_BRANCH}/public/assets/icons/icon-white.png`);
         }
     }, [window.matchMedia("(prefers-color-scheme: dark)").matches]);
 
