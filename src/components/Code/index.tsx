@@ -37,12 +37,18 @@ export const CodeSection = () => {
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span className="return">return</span> [
-                    <span className="string">"Java"</span>, <span className="string">"Python"</span>
-                    , <span className="string">"Kotlin"</span>,{" "}
-                    <span className="string">"C++"</span>, <span className="string">"C#"</span>,{" "}
-                    <span className="string">"JavaScript"</span>,{" "}
-                    <span className="string">"HTML / CSS"</span>];
                 </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"Java"</span>,
+                    <span className="string">"Python"</span>,
+                    <span className="string">"Kotlin"</span>,
+                    <span className="string">"C++"</span>,
+                    <span className="string">"C#"</span>,
+                    <span className="string">"JavaScript"</span>,
+                    <span className="string">"HTML / CSS"</span>
+                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
                 <p>&nbsp;&nbsp;{"}"}</p>
                 <p>
                     &nbsp;&nbsp;
@@ -51,21 +57,27 @@ export const CodeSection = () => {
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;<span className="return">return</span> [
-                    <span className="string">"InteliJ"</span>,{" "}
-                    <span className="string">"PyCharm"</span>,{" "}
-                    <span className="string">"Clion"</span>,{" "}
-                    <span className="string">"Android Studio"</span>,{" "}
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"InteliJ"</span>,
+                    <span className="string">"PyCharm"</span>,
+                    <span className="string">"Clion"</span>,
+                    <span className="string">"Android Studio"</span>,
                     <span className="string">"Visual Studio Code"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"Visual Studio"</span>,{" "}
-                    <span className="string">"Atom"</span>, <span className="string">"NodeJS"</span>
-                    , <span className="string">"MySQL"</span>,{" "}
-                    <span className="string">"SQLite"</span>, <span className="string">"Bash"</span>
-                    , <span className="string">"Git"</span>, <span className="string">"Figma"</span>
-                    ];
+                    <span className="string">"Visual Studio"</span>,
+                    <span className="string">"Atom"</span>,
+                    <span className="string">"NodeJS"</span>,
+                    <span className="string">"MySQL"</span>,
+                    <span className="string">"SQLite"</span>,
+                    <span className="string">"Bash"</span>,
+                    <span className="string">"Git"</span>,
+                    <span className="string">"Figma"</span>
                 </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
                 <p>&nbsp;&nbsp;{"}"}</p>
                 <p>
                     &nbsp;&nbsp;

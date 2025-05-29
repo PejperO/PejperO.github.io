@@ -2,14 +2,13 @@
     "en": {
         "lang": "en",
         "home": "Home",
-        "about-link": "About Me",
 
         "hello": "Hello World!",
         "intro": "My name is <span class='text-blue-500 font-bold text-3xl'>Mikołaj Polecki</span>",
 
         "about-text": "A hardworking programmer with passion",
         "specialization": "Java Developer",
-        "footer-text": "Copyright © 2025 Mikołaj Polecki. All rights reserved.",
+        "footer-text": "© 2025 Mikołaj (<a href='https://github.com/PejperO' target='_blank'>@PejperO</a>) & Emanuel (<a href='https://github.com/Emsa001' target='_blank'>@Emsa001</a>). Released under the MIT License.",
         "this-name": "this.name",
         "this-specialization": "this.specialization",
         "languages": "languages",
@@ -30,7 +29,7 @@
 
         "contact": {
             "title": "Contact",
-            "hello": "If you'd like, <span className='text-blue-500'>let's chat :)</span>"
+            "hello": "If you'd like, <span class='text-blue-500 font-bold text-3xl'>let's chat :)</span>"
         },
 
         "portfolio": {
@@ -42,14 +41,13 @@
     "pl": {
         "lang": "pl",
         "home": "Start",
-        "about-link": "O mnie",
 
         "hello": "Hello World!",
         "intro": "Nazywam się <span class='text-blue-500 font-bold text-3xl'>Mikołaj Polecki</span>",
 
         "about-text": "Pracowity programista z Pasją",
         "specialization": "Programista Java",
-        "footer-text": "Copyright © 2025 Mikołaj Polecki. Wszelkie prawa zastrzeżone.",
+        "footer-text": "© 2025 Mikołaj (<a href='https://github.com/PejperO' target='_blank'>@PejperO</a>) i Emanuel (<a href='https://github.com/Emsa001' target='_blank'>@Emsa001</a>). Wydane na licencji MIT.",
         "this-name": "this.imie",
         "this-specialization": "this.specjalizacja",
         "languages": "jezyki",
@@ -70,7 +68,7 @@
 
         "contact": {
             "title": "Kontakt",
-            "hello": "Jeśli chcesz, <span className='text-blue-500'>porozmawiajmy :)</span>"
+            "hello": "Jeśli chcesz, <span class='text-blue-500 font-bold text-3xl'>porozmawiajmy :)</span>"
         },
         "portfolio": {
             "title": "Prace",
