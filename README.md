@@ -1,11 +1,12 @@
 # PejperO Portfolio Website
 
-A modern, customizable portfolio website built with Node.js and React. Easily showcase your projects, manage multilingual content, and extend with new pages or styles.
+A modern, customizable portfolio website built with Node.js and **ft_react** (a custom React-like library). Easily showcase your projects, manage multilingual content, and extend with new pages or styles.
 
+> 🔧 Built entirely using [ft_react](https://github.com/Emsa001/ft_react) — a custom React-like JavaScript library.
 ---
 
 ## 🚀 Features
-- Custom React implementation (no external frameworks)
+- Custom React implementation via [ft_react](https://github.com/Emsa001/ft_react) (no external frameworks)
 - Multilingual support (edit `public/langs.json`)
 - Easy project management (edit `public/portfolio.json`)
 - Simple global styling with Tailwind CSS
@@ -40,6 +41,14 @@ npm run dev
 ```
 
 ### Build Project
+
+You can use the build script:
+```bash
+./run.sh
+```
+
+or manually run:
+
 ```bash
 npm run build
 ```
