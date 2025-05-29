@@ -6,7 +6,7 @@ export const Footer = () => {
 
     return (
         <div className="flex items-center justify-center gap-4 text-sm text-center text-gray-400 p-1">
-            <span>{translate("footer-text")}</span>
+            <span dangerouslySetInnerHTML={{ __html: translate("footer-text")}} />
         </div>
     );
 };
