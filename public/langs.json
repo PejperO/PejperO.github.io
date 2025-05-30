@@ -35,7 +35,10 @@
         "portfolio": {
             "title": "Portfolio",
             "hello": "All my personal projects are available on my <a class='text-blue-500 font-bold text-3xl custom-link' href='https://github.com/PejperO' target='_blank'>GitHub</a>",
-            "intro": "Here are my favorites: "
+            "intro": "Here are my favorites: ",
+            "overview": "Overview",
+            "view": "View Project",
+            "features": "Features"
         }
     },
     "pl": {
@@ -73,7 +76,10 @@
         "portfolio": {
             "title": "Prace",
             "hello": "Wszystkie prace, zrobione dla zabawy, są na moim <a class='text-blue-500 font-bold text-3xl' href='https://github.com/PejperO' target'_blank'>GitHub</a>",
-            "intro": "To są moje ulubione:"
+            "intro": "To są moje ulubione:",
+            "overview": "Przegląd",
+            "view": "Zobacz projekt",
+            "features": "Funkcje"
         }
     }
 }

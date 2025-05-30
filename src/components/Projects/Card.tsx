@@ -1,9 +1,12 @@
 import React from "react";
 import { HOMEPAGE_BRANCH } from "../../config";
 import { Project } from "./type";
+import { useLang } from "../../hooks/useLang";
 
 
 export const ProjectCard = ({ project, right }: { project: Project; right: boolean }) => {
+    const {translate} = useLang();
+
     return (
         <div
             className={`z-[10] flex flex-col items-center justify-center gap-12 xl:p-8 ${
@@ -20,7 +23,7 @@ export const ProjectCard = ({ project, right }: { project: Project; right: boole
                 <h3 className="text-blue-500 text-2xl font-black mb-2">{project.title}</h3>
                 {project.subtitle && <span className="text-sm font-bold">{project.subtitle}</span>}
                 <div className="mt-6">
-                    <h4 className="font-black">Overview:</h4>
+                    <h4 className="font-black">{translate("portfolio").overview}:</h4>
 
                     <div className="mt-4">
                         {project.overview.map((e) => (
@@ -30,7 +33,7 @@ export const ProjectCard = ({ project, right }: { project: Project; right: boole
 
                     {project.features.length > 0 && (
                         <div className="mt-4">
-                            <h2>Features</h2>
+                            <h2>{translate("portfolio").features}</h2>
                             <ul className="list-disc ml-5">
                                 {project.features.map((e) => (
                                     <li key={e.title} className="pl-1">
@@ -44,7 +47,7 @@ export const ProjectCard = ({ project, right }: { project: Project; right: boole
                                                     className="underline mb-4 hover:text-blue-500"
                                                 >
                                                     {" "}
-                                                    View Project
+                                                    {translate("portfolio").view}
                                                 </a>
                                             )}
                                         </div>
@@ -61,7 +64,7 @@ export const ProjectCard = ({ project, right }: { project: Project; right: boole
                                 target="_blank"
                                 className="underline font-bold text-xl hover:text-blue-500"
                             >
-                                View Project
+                                {translate("portfolio").view}
                             </a>
                         )}
                     </div>
