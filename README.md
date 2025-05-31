@@ -16,6 +16,7 @@ A modern, customizable portfolio website built with Node.js and **ft_react** (a 
 
 ## 📑 Table of Contents
 - [Getting Started](#getting-started)
+- [Development & Build Guide](#development-&-build-guide)
 - [Editing Languages](#editing-languages)
 - [Adding Projects to Portfolio](#adding-projects-to-portfolio)
 - [Global Styles](#global-styles)
@@ -27,7 +28,7 @@ A modern, customizable portfolio website built with Node.js and **ft_react** (a 
 ## 🛠️ Getting Started
 
 ### Prerequisites
-- **Node.js** v20.12.2
+- **Node.js** v20.12.2 
 - **npm** v10.9.2
 
 ### Install Packages
@@ -35,24 +36,33 @@ A modern, customizable portfolio website built with Node.js and **ft_react** (a 
 npm install
 ```
 
+## 🚀 Development & Build Guide
+
 ### Run in Developer Mode
+You can either:
+
+- Use the provided script:
+`./DevMode.sh`
+>This script builds a Docker image and starts the development server (`npm run dev`) inside a Docker container.
+
+- Or run manually without Docker:
 ```bash
 npm run dev
 ```
 
-### Build Project
+### Build the Project
 
-You can use the build script:
-```bash
-./run.sh
-```
+You can either:
+- Use the build script:
+`./Build.sh`
+>This script builds a Docker image, runs the production build (`npm run build`) inside a container, and then copies the `dist/` directory from the container to your host machine.
 
-or manually run:
-
+- Or build manually without Docker:
 ```bash
 npm run build
 ```
-- Output will be in the `dist` directory.
+
+- The final output will be available in the `dist` directory.
 
 ---
 
