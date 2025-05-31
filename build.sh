@@ -4,6 +4,8 @@ set -e
 IMAGE_NAME="pejpero-builder"
 CONTAINER_NAME="pejpero-temp"
 
+trap 'echo "❌ Build failed. Press Enter to exit..."; read' ERR
+
 echo "🛠️ Building Docker image..."
 docker build -t $IMAGE_NAME .
 
@@ -18,3 +20,5 @@ echo "🧹 Cleaning up..."
 docker rm $CONTAINER_NAME > /dev/null
 
 echo "✅ Done! dist/ is now available on your host."
+
+read -p "🔒 Press Enter to close this window..."
