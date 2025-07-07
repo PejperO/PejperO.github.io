@@ -43,18 +43,26 @@
             "title": "Website and Logo Design for an Architecture Studio",
             "img": "/public/assets/projects/applus_main_trimmed.png",
             "overview": [
-                "I designed a website for an architecture studio, adhering to principles of minimalism and the owner's specific guidelines. The site features a carefully curated color palette reflecting the architect's vision and preferences.",
-                "I also created a new logo from scratch, aligning the studio's visual identity with modern trends while maintaining the unique style and preferences of the owner."
+                "A minimalist and elegant portfolio website designed for a solo architectural studio. It showcases commercial and residential interiors, as well as architectural building designs, in a clear and modern layout.",
+                "The site focuses on visual clarity, aesthetics, and easy access to information about services, projects, and the architect."
             ],
             "features": [
-                { "title": "Portfolio:", "description": "A gallery showcasing various projects." },
+                { "title": "Project portfolio:", "description": "Galleries of completed interior and building designs, with dedicated pages for each project." },
                 {
-                    "title": "Services:",
-                    "description": "A detailed description of the firm's offerings."
+                    "title": "Service overview:",
+                    "description": "Detailed description of the studio’s offerings – from private interiors to full architectural projects."
                 },
                 {
-                    "title": "About Us:",
-                    "description": "Insights into the architect's approach to design."
+                    "title": "About the architect:",
+                    "description": "“About Me” section with background, experience, and design philosophy."
+                },
+                {
+                    "title": "Contact:",
+                    "description": "Direct contact information for easy communication and collaboration."
+                },
+                {
+                    "title": "Modern technologies:",
+                    "description": "Built with React + TypeScript, using Vite, Tailwind CSS, and React Router for speed, lightness, and full responsiveness."
                 }
             ],
             "link": "https://applus.pl"
@@ -216,18 +224,27 @@
             "title": "Strona internetowa dla biura architektonicznego",
             "img": "/public/assets/projects/applus_main_trimmed.png",
             "overview": [
-                "Zaprojektowałem stronę internetową dla biura architektonicznego, przestrzegając zasad minimalizmu i konkretnych wytycznych właściciela. Strona zawiera dobraną paletę kolorów odzwierciedlającą wizję i preferencje.",
-                "Stworzyłem również nowe logo od podstaw, dostosowując identyfikację wizualną studia do nowoczesnych trendów, jednocześnie zachowując unikalny styl i preferencje właściciela."
+                "Minimalistyczna i elegancka strona portfolio zaprojektowana dla jednoosobowej pracowni architektonicznej. Prezentuje wnętrza komercyjne, prywatne oraz projekty budynków w przystępnej i nowoczesnej formie.",
+                "Strona skupia się na przejrzystości, estetyce i łatwym dostępie do informacji o usługach, projektach i osobie architekta."
             ],
             "features": [
-                { "title": "Portfolio:", "description": "Galeria prezentująca różne projekty." },
-                {
-                    "title": "Usługi:",
-                    "description": "Szczegółowy opis oferty firmy."
+                { "title": "Portfolio projektów:", "description": "Galerie zrealizowanych wnętrz i budynków z dedykowanymi stronami dla każdego projektu."
                 },
                 {
-                    "title": "O nas:",
-                    "description": "Wgląd w podejście architekta do projektowania."
+                    "title": "Opis oferty:",
+                    "description": "Szczegółowy zakres usług – od wnętrz prywatnych po projekty architektoniczne."
+                },
+                {
+                    "title": "Informacje o architekcie:",
+                    "description": "Sekcja „O mnie” z opisem doświadczenia i podejścia do projektowania."
+                },
+                {
+                    "title": "Kontakt:",
+                    "description": "Bezpośrednie dane kontaktowe ułatwiające nawiązanie współpracy."
+                },
+                {
+                    "title": "Nowoczesne technologie:",
+                    "description": "Strona zbudowana w React + TypeScript, z użyciem Vite, Tailwind CSS i React Router, co zapewnia szybkość, lekkość i pełną responsywność."
                 }
             ],
             "link": "https://applus.pl"
