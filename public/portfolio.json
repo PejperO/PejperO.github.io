@@ -151,7 +151,8 @@
             "subtitle": "",
             "img": "/public/assets/projects/poker.png",
             "overview": [
-                "An Android app built with Kotlin for calculating and managing poker players' balances. Features include player management, rebuy tracking, and modern UI design."
+                "An Android app built with Kotlin for calculating and managing poker players' balances. Features include player management, rebuy tracking, and modern UI design.",
+                "The IOS version in Swift is in the testing phase and will be available soon."
             ],
             "features": [
                 { "title": "Add new players with their names." },
