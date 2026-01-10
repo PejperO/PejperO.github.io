@@ -7,7 +7,7 @@
         "intro": "My name is <span class='text-blue-500 font-bold text-3xl'>Mikołaj Polecki</span>",
 
         "about-text": "A hardworking programmer with passion",
-        "specialization": "Java Developer",
+        "specialization": "IAM Developer",
         "footer-text": "© 2025 Mikołaj (<a href='https://github.com/PejperO' target='_blank'>@PejperO</a>) & Emanuel (<a href='https://github.com/Emsa001' target='_blank'>@Emsa001</a>). Released under the MIT License.",
         "this-name": "this.name",
         "this-specialization": "this.specialization",
@@ -17,11 +17,10 @@
         "experience": "experience",
         "edu-text": "2021-2025 : Polish-Japanese Academy of Information Technology",
         "degree": "Bachelor of Engineering (B.Eng.)",
-        "exp1": "06.2024 – PRESENT : Programming trainer | Coding Giants",
-        "exp2": "08.2020 – PRESENT : Freelance Programmer",
-        "exp3": "10.2023 – 06.2024 : IT Teacher | High School",
-        "exp4": "03.2021 – 05.2024 : Private Programming Lessons",
-        "exp5": "09.2020 – 06.2024 : IT Support | High School of St. Paul",
+        "exp1": "08.2020 – PRESENT : Freelance Programmer",
+        "exp2": "01.2026 – PRESENT : IAM Developer | Integrity Partners",
+        "exp3": "06.2024 – 08.2025 : Programming trainer | Coding Giants",
+        "exp4": "09.2020 – 06.2024 : IT Support | High School of St. Paul",
         "flag": {
             "src": "/public/assets/images/pl.png",
             "alt": "Zmień język na polski"
@@ -49,7 +48,7 @@
         "intro": "Nazywam się <span class='text-blue-500 font-bold text-3xl'>Mikołaj Polecki</span>",
 
         "about-text": "Pracowity programista z Pasją",
-        "specialization": "Programista Java",
+        "specialization": "Programista IAM",
         "footer-text": "© 2025 Mikołaj (<a href='https://github.com/PejperO' target='_blank'>@PejperO</a>) i Emanuel (<a href='https://github.com/Emsa001' target='_blank'>@Emsa001</a>). Wydane na licencji MIT.",
         "this-name": "this.imie",
         "this-specialization": "this.specjalizacja",
@@ -59,11 +58,10 @@
         "experience": "doswiadczenie",
         "edu-text": "2021-2025 : Polsko-Japońska Akademia Technik Komputerowych",
         "degree": "Tytuł inżynierski (inż.)",
-        "exp1": "06.2024 – OBECNIE : Trener Programowania | Giganci Programowania",
-        "exp2": "08.2020 – OBECNIE : Programista Freelancer",
-        "exp3": "10.2023 – 06.2024 : Nauczyciel informatyki | Liceum",
-        "exp4": "03.2021 – 05.2024 : Prywatne lekcje programowania",
-        "exp5": "09.2020 – 06.2024 : IT Support | Liceum Pawła z Tarsu",
+        "exp1": "08.2020 – PRESENT : Programista Freelancer",
+        "exp2": "01.2026 – PRESENT : IAM Developer | Integrity Partners",
+        "exp3": "06.2024 – 08.2025 : Trener Programowania | Giganci Programowania",
+        "exp4": "09.2020 – 06.2024 : IT Support | Liceum Pawła z Tarsu",
         "flag": {
             "src": "/public/assets/images/en.png",
             "alt": "Change language to English"
