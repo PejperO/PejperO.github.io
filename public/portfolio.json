@@ -10,6 +10,33 @@
             "features": []
         },
         {
+            "title": "Random Excuse API",
+            "img": "/public/assets/projects/Random-excuse-API.png",
+            "overview": [
+                "A lightweight full‑stack application demonstrating Spring Boot, RESTful API design, and vanilla JavaScript integration. It features an embedded H2 database for storing categorized excuses, endpoints for random or filtered retrieval, and a simple front‑end UI. Ideal as a hands‑on project to master core Java and web development concepts."
+            ],
+            "features": [],
+            "link": "https://github.com/PejperO/Random-Excuse-API"
+        },
+        {
+            "title": "Votin App",
+            "img": "/public/assets/projects/Voting-app.png",
+            "overview": [
+                "A simple full‑stack voting service with a Java (Spring Boot) backend and a JavaScript frontend — manage candidates, voters, and votes via a REST API, using an embedded H2 database and a CRUD interface."
+            ],
+            "features": [],
+            "link": "https://github.com/PejperO/Voting_app"
+        },
+        {
+            "title": "Staff Data Manager",
+            "img": "/public/assets/projects/StaffDataManager.png",
+            "overview": [
+                "StaffDataManager is a lightweight Java SE desktop app for managing employee records without external databases. It stores data in simple XML files (one per employee), demonstrating basic file-based persistence, CRUD operations, and clean object-oriented design."
+            ],
+            "features": [],
+            "link": "https://github.com/PejperO/StaffDataManager"
+        },
+        {
             "title": "Pizzeria Manager",
             "overview": [
                 "A comprehensive system for managing pizzerias, covering menu management, ingredient tracking, staff scheduling, customer orders, and real-time order tracking."
@@ -190,6 +217,33 @@
                 "Ten projekt obejmuje opracowanie aplikacji szachowej opartej na Javie z interfejsem graficznym. Obsługuje ona lokalną i sieciową rozgrywkę (localhost), analizę gry oraz zapisywanie/ładowanie partii z bazy danych. Zainspirowany platformami takimi jak Chess.com i Lichess.org, prototyp zawiera podstawowe funkcje, takie jak resetowanie gry, obrót planszy i analiza, prezentując potencjał Javy pomimo jej ograniczeń w zakresie tworzenia gier."
             ],
             "features": []
+        },
+        {
+            "title": "Random Excuse API",
+            "img": "/public/assets/projects/Random-excuse-API.png",
+            "overview": [
+                "Lekka aplikacja full‑stack prezentująca Spring Boot, projektowanie REST‑owego API oraz integrację z czystym JavaScriptem. Zawiera wbudowaną bazę danych H2 do przechowywania skategoryzowanych wymówek, endpointy umożliwiające losowe lub filtrowane pobieranie oraz prosty interfejs front‑end. Idealna jako praktyczny projekt do opanowania podstaw Javy i tworzenia aplikacji webowych."
+            ],
+            "features": [],
+            "link": "https://github.com/PejperO/Random-Excuse-API"
+        },
+        {
+            "title": "Votin App",
+            "img": "/public/assets/projects/Voting-app.png",
+            "overview": [
+                "Prosty pełnostackowy system do głosowania z backendem w Javie (Spring Boot) i frontendem w JavaScripcie — umożliwia zarządzanie kandydatami, wyborcami i głosami poprzez REST API, korzystając z wbudowanej bazy H2 oraz interfejsu CRUD."
+            ],
+            "features": [],
+            "link": "https://github.com/PejperO/Voting_app"
+        },
+        {
+            "title": "Staff Data Manager",
+            "img": "/public/assets/projects/StaffDataManager.png",
+            "overview": [
+                "StaffDataManager to lekka aplikacja desktopowa Java SE do zarządzania danymi pracowników bez użycia zewnętrznych baz danych. Przechowuje informacje w prostych plikach XML (po jednym na pracownika), prezentując podstawową trwałość danych opartą na plikach, operacje CRUD oraz przejrzysty, obiektowy design."
+            ],
+            "features": [],
+            "link": "https://github.com/PejperO/StaffDataManager"
         },
         {
             "title": "Pizzeria Manager",
