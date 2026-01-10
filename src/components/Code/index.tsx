@@ -27,7 +27,7 @@ export const CodeSection = () => {
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="property">{translate("this-specialization")}</span> ={" "}
-                    <span className="string">"Java Developer"</span>;
+                    <span className="string">"IAM Developer"</span>;
                 </p>
                 <p>&nbsp;&nbsp;{"}"}</p>
                 <p>
@@ -46,6 +46,7 @@ export const CodeSection = () => {
                     <span className="string">"C++"</span>,
                     <span className="string">"C#"</span>,
                     <span className="string">"JavaScript"</span>,
+                    <span className="string">"SQL"</span>,
                     <span className="string">"HTML / CSS"</span>
                 </p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
@@ -60,40 +61,45 @@ export const CodeSection = () => {
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"InteliJ"</span>,
-                    <span className="string">"PyCharm"</span>,
-                    <span className="string">"Clion"</span>,
-                    <span className="string">"Android Studio"</span>,
-                    <span className="string">"Visual Studio Code"</span>,
+                    <span className="string">"SailPoint"</span>,
+                    <span className="string">"IAM Architecture"</span>,
+                    <span className="string">"JML"</span>,
+                    <span className="string">"RBAC"</span>,
+                    <span className="string">"Access Certifications"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"Visual Studio"</span>,
-                    <span className="string">"Atom"</span>,
-                    <span className="string">"NodeJS"</span>,
-                    <span className="string">"MySQL"</span>,
-                    <span className="string">"SQLite"</span>,
-                    <span className="string">"Bash"</span>,
+                    <span className="string">"Spring / Spring Boot"</span>,
+                    <span className="string">"REST API Design"</span>,
+                    <span className="string">"Hibernate / JPA"</span>,
+                    <span className="string">"Maven / Gradle"</span>,
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"Unit / Integration Testing"</span>,
+                    <span className="string">"Multithreading / Concurrency"</span>,
+                    <span className="string">"JVM fundamentals"</span>,
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"LDAP"</span>,
+                    <span className="string">"SCIM"</span>,
+                    <span className="string">"OAuth 2.0"</span>,
+                    <span className="string">"JDBC Connectors"</span>,
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"MySQL, SSMS, Oracle"</span>,
+                    <span className="string">"Database schema design"</span>,
+                    <span className="string">"Query optimization"</span>,
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="string">"Git"</span>,
-                    <span className="string">"Figma"</span>
-                </p>
-                <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
-                <p>&nbsp;&nbsp;{"}"}</p>
-                <p>
-                    &nbsp;&nbsp;
-                    <span className="function">{translate("education")}</span>
-                    () {"{"}
-                </p>
-                <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;<span className="return">return</span> [
-                </p>
-                <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"{translate("edu-text")}"</span>,
-                </p>
-                <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"{translate("degree")}"</span>
+                    <span className="string">"CI/CD pipelines"</span>,
+                    <span className="string">"Docker"</span>,
+                    <span className="string">"Linux"</span>,
+                    <span className="string">"Bash scripting"</span>,
                 </p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
                 <p>&nbsp;&nbsp;{"}"}</p>
@@ -121,9 +127,27 @@ export const CodeSection = () => {
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="string">"{translate("exp4")}"</span>,
                 </p>
-                <p>
+                {/* <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="string">"{translate("exp5")}"</span>
+                </p> */}
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
+                <p>&nbsp;&nbsp;{"}"}</p>
+                <p>
+                    &nbsp;&nbsp;
+                    <span className="function">{translate("education")}</span>
+                    () {"{"}
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span className="return">return</span> [
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"{translate("edu-text")}"</span>,
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"{translate("degree")}"</span>
                 </p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
                 <p>&nbsp;&nbsp;{"}"}</p>
