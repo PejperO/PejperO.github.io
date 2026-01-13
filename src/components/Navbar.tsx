@@ -55,6 +55,9 @@ export const NavBar = () => {
                 <a href={HOMEPAGE_BRANCH + "/portfolio"} onClick={handleRedirect} className={active === "/portfolio" ? "text-blue-500" : ""}>
                     {translate("portfolio").title}
                 </a>
+                <a href={HOMEPAGE_BRANCH + "/offer"} onClick={handleRedirect} className={active === "/offer" ? "text-blue-500" : ""}>
+                    {translate("offer").title}
+                </a>
                 <a href={HOMEPAGE_BRANCH + "/contact"} onClick={handleRedirect} className={active === "/contact" ? "text-blue-500" : ""}>
                     {translate("contact").title}
                 </a>

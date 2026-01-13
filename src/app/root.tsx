@@ -5,6 +5,7 @@ import "./global.css";
 import Home from "./Home";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
+import Offer from "./Offer";
 
 import { NavBar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
@@ -25,6 +26,7 @@ export default function Root() {
                     <Router src={HOMEPAGE_BRANCH + "/"} component={<Home />} default />
                     <Router src={HOMEPAGE_BRANCH + "/contact"} component={<Contact />} />
                     <Router src={HOMEPAGE_BRANCH + "/portfolio"} component={<Portfolio />} />
+                    <Router src={HOMEPAGE_BRANCH + "/offer"} component={<Offer />} />
                 </BrowserRouter>
             </div>
 

@@ -31,6 +31,28 @@
             "hello": "If you'd like, <span class='text-blue-500 font-bold text-3xl'>let's chat :)</span>"
         },
 
+        "offer": {
+            "title": "Offer",
+            "hello": "I write software <a class='text-blue-500 font-bold text-3xl'>that works.</a>",
+            "hello2": "Side stuff",
+            "off1": "Backend / API",
+            "off1_details": " – Java, Python, C#, Kotlin",
+            "off2": "Web applications",
+            "off2_details": " – logic, integrations, systems for specific needs",
+            "off3": "Mobile apps",
+            "off3_details": " – Android (Kotlin), iOS (Swift)",
+            "off4": "Automation and tools",
+            "off4_details": " – less manual work, more peace of mind",
+            "off5": "Fixing existing projects",
+            "off5_details": " – if someone messed it up, I can fix it",
+            "off6": "3D Printing",
+            "off6_details": " – small parts, prototypes, functional components",
+            "off7": "Phone and computer repair",
+            "off7_details": " – software, hardware, data recovery",
+            "off8": "Programming lessons",
+            "off8_details": " – no bootcamps, no miracles, just solid fundamentals"
+        },
+
         "portfolio": {
             "title": "Portfolio",
             "hello": "All my personal projects are available on my <a class='text-blue-500 font-bold text-3xl custom-link' href='https://github.com/PejperO' target='_blank'>GitHub</a>",
@@ -71,6 +93,29 @@
             "title": "Kontakt",
             "hello": "Jeśli chcesz, <span class='text-blue-500 font-bold text-3xl'>porozmawiajmy :)</span>"
         },
+
+        "offer": {
+            "title": "Oferta",
+            "hello": "Piszę oprogramowanie, <a class='text-blue-500 font-bold text-3xl'>które działa.</a>",
+            "hello2": "Poza kodem",
+            "off1": "Backend / API",
+            "off1_details": " – Java, Python, C#, Kotlin",
+            "off2": "Aplikacje webowe",
+            "off2_details": " – logika, integracje, systemy pod konkretne potrzeby",
+            "off3": "Aplikacje mobilne",
+            "off3_details": " – Android (Kotlin), iOS (Swift)",
+            "off4": "Automatyzacje i narzędzia",
+            "off4_details": " – mniej pracy ręcznej, więcej spokoju",
+            "off5": "Naprawa istniejących projektów",
+            "off5_details": " – jeśli ktoś to popsuł, ogarnę",
+            "off6": "Druk 3D",
+            "off6_details": " – drobne elementy, prototypy, części użytkowe",
+            "off7": "Naprawa telefonów i komputerów",
+            "off7_details": " – software, hardware, odzysk danych",
+            "off8": "Nauka programowania",
+            "off8_details": " – nie bootcamp, nie cud, tylko solidne podstawy"
+        },
+
         "portfolio": {
             "title": "Prace",
             "hello": "Wszystkie prace, zrobione dla zabawy, są na moim <a class='text-blue-500 font-bold text-3xl' href='https://github.com/PejperO' target'_blank'>GitHub</a>",
