@@ -61,45 +61,33 @@ export const CodeSection = () => {
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"SailPoint"</span>,
-                    <span className="string">"IAM Architecture"</span>,
-                    <span className="string">"JML"</span>,
-                    <span className="string">"RBAC"</span>,
-                    <span className="string">"Access Certifications"</span>,
+                    <span className="string">"{translate("skill1")}"</span>,
+                    <span className="string">"{translate("skill2")}"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"Spring / Spring Boot"</span>,
-                    <span className="string">"REST API Design"</span>,
-                    <span className="string">"Hibernate / JPA"</span>,
-                    <span className="string">"Maven / Gradle"</span>,
+                    <span className="string">"{translate("skill3")}"</span>,
+                    <span className="string">"{translate("skill4")}"</span>,
+                    <span className="string">"{translate("skill5")}"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"Unit / Integration Testing"</span>,
-                    <span className="string">"Multithreading / Concurrency"</span>,
-                    <span className="string">"JVM fundamentals"</span>,
+                    <span className="string">"{translate("skill6")}"</span>,
+                    <span className="string">"{translate("skill7")}"</span>,
+                    <span className="string">"{translate("skill8")}"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"LDAP"</span>,
-                    <span className="string">"SCIM"</span>,
-                    <span className="string">"OAuth 2.0"</span>,
-                    <span className="string">"JDBC Connectors"</span>,
+                    <span className="string">"{translate("skill9")}"</span>,
+                    <span className="string">"{translate("skill10")}"</span>,
+                    <span className="string">"{translate("skill11")}"</span>,
+                    <span className="string">"{translate("skill12")}"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"MySQL, SSMS, Oracle"</span>,
-                    <span className="string">"Database schema design"</span>,
-                    <span className="string">"Query optimization"</span>,
-                </p>
-                <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"Git"</span>,
-                    <span className="string">"CI/CD pipelines"</span>,
-                    <span className="string">"Docker"</span>,
-                    <span className="string">"Linux"</span>,
-                    <span className="string">"Bash scripting"</span>,
+                    <span className="string">"{translate("skill13")}"</span>,
+                    <span className="string">"{translate("skill14")}"</span>,
+                    <span className="string">"{translate("skill15")}"</span>,
                 </p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
                 <p>&nbsp;&nbsp;{"}"}</p>
@@ -121,16 +109,16 @@ export const CodeSection = () => {
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span className="string">"{translate("exp5")}"</span>,
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="string">"{translate("exp3")}"</span>,
                 </p>
                 <p>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span className="string">"{translate("exp4")}"</span>,
                 </p>
-                {/* <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span className="string">"{translate("exp5")}"</span>
-                </p> */}
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;];</p>
                 <p>&nbsp;&nbsp;{"}"}</p>
                 <p>

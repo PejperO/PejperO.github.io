@@ -21,6 +21,22 @@
         "exp2": "01.2026 – PRESENT : IAM Developer | Integrity Partners",
         "exp3": "06.2024 – 08.2025 : Programming trainer | Coding Giants",
         "exp4": "09.2020 – 06.2024 : IT Support | High School of St. Paul",
+        "exp5": "05.2026 – PRESENT : Programming Teacher | Kodland",
+        "skill1": "SailPoint IdentityIQ / ISC",
+        "skill2": "Identity lifecycle (Joiner-Mover-Leaver)",
+        "skill3": "RBAC & access models",
+        "skill4": "Access certifications",
+        "skill5": "Provisioning & connectors",
+        "skill6": "Workflows & rules",
+        "skill7": "Java & Spring Boot",
+        "skill8": "REST API & SCIM",
+        "skill9": "LDAP / Active Directory",
+        "skill10": "SQL databases",
+        "skill11": "Git & CI/CD",
+        "skill12": "Docker & Linux",
+        "skill13": "Teaching programming",
+        "skill14": "Explaining hard topics simply",
+        "skill15": "Mentoring beginners",
         "flag": {
             "src": "/public/assets/images/pl.png",
             "alt": "Zmień język na polski"
@@ -57,9 +73,9 @@
             "title": "Portfolio",
             "hello": "All my personal projects are available on my <a class='text-blue-500 font-bold text-3xl custom-link' href='https://github.com/PejperO' target='_blank'>GitHub</a>",
             "intro": "Here are my favorites: ",
-            "overview": "Overview",
+            "overview": "About",
             "view": "View Project",
-            "features": "Features"
+            "features": "Details"
         }
     },
     "pl": {
@@ -84,6 +100,22 @@
         "exp2": "01.2026 – PRESENT : IAM Developer | Integrity Partners",
         "exp3": "06.2024 – 08.2025 : Trener Programowania | Giganci Programowania",
         "exp4": "09.2020 – 06.2024 : IT Support | Liceum Pawła z Tarsu",
+        "exp5": "05.2026 – PRESENT : Nauczyciel Programowania | Kodland",
+        "skill1": "SailPoint IdentityIQ / ISC",
+        "skill2": "Cykl życia tożsamości (Joiner-Mover-Leaver)",
+        "skill3": "RBAC i modele dostępu",
+        "skill4": "Certyfikacje dostępu",
+        "skill5": "Provisioning i konektory",
+        "skill6": "Workflow i reguły",
+        "skill7": "Java i Spring Boot",
+        "skill8": "REST API i SCIM",
+        "skill9": "LDAP / Active Directory",
+        "skill10": "Bazy danych SQL",
+        "skill11": "Git i CI/CD",
+        "skill12": "Docker i Linux",
+        "skill13": "Nauczanie programowania",
+        "skill14": "Tłumaczenie trudnych tematów",
+        "skill15": "Mentoring uczniów",
         "flag": {
             "src": "/public/assets/images/en.png",
             "alt": "Change language to English"
@@ -120,9 +152,9 @@
             "title": "Prace",
             "hello": "Wszystkie prace, zrobione dla zabawy, są na moim <a class='text-blue-500 font-bold text-3xl' href='https://github.com/PejperO' target'_blank'>GitHub</a>",
             "intro": "To są moje ulubione:",
-            "overview": "Przegląd",
+            "overview": "Opis",
             "view": "Zobacz projekt",
-            "features": "Funkcje"
+            "features": "Cechy"
         }
     }
 }
