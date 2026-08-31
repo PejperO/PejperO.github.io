@@ -1,6 +1,37 @@
 {
     "en": [
         {
+            "title": "Minecraft Roguelike",
+            "img": "/public/assets/projects/minecraft-roguelike.png",
+            "overview": [
+                "A lightweight roguelike-style survival game written in Python with Pygame Zero. The player explores a procedurally generated, tile-based world, survives against Minecraft-inspired enemies and scores points for every second stayed alive.",
+                "The entire game — rendering, world generation, player and enemy logic, UI and game states — lives in a single main.py file, without any game engine or framework overhead."
+            ],
+            "features": [
+                {
+                    "title": "Procedural world:",
+                    "description": "A new tile map is generated on every run, with grass, stone, water and trees, and a guaranteed safe starting area."
+                },
+                {
+                    "title": "Grid movement:",
+                    "description": "Classic tile-by-tile roguelike movement, controlled with WSAD or the arrow keys."
+                },
+                {
+                    "title": "Enemy AI:",
+                    "description": "Creeper-style enemies track the player, avoid blocked tiles and deal damage on contact."
+                },
+                {
+                    "title": "Health and score:",
+                    "description": "Three hit points with invulnerability frames after taking damage, and a score that grows the longer you survive."
+                },
+                {
+                    "title": "Game states and sound:",
+                    "description": "A menu with a music toggle, active gameplay and a death screen with a restart loop, backed by safe audio playback."
+                }
+            ],
+            "link": "https://github.com/PejperO/Minecraft-Roguelike"
+        },
+        {
             "title": "Chess App with Local Network Play",
             "img": "/public/assets/projects/Chess2D.png",
             "subtitle": "Project for Engineering Degree (B.Eng.)",
@@ -209,6 +240,37 @@
     ],
 
     "pl": [
+        {
+            "title": "Minecraft Roguelike",
+            "img": "/public/assets/projects/minecraft-roguelike.png",
+            "overview": [
+                "Lekka gra survivalowa w stylu roguelike, napisana w Pythonie z użyciem Pygame Zero. Gracz eksploruje proceduralnie generowany świat zbudowany z kafelków, walczy o przetrwanie z przeciwnikami inspirowanymi Minecraftem i zdobywa punkty za każdą sekundę spędzoną przy życiu.",
+                "Cała gra — renderowanie, generowanie świata, logika gracza i przeciwników, interfejs oraz stany gry — mieści się w jednym pliku main.py, bez silnika gry i dodatkowych frameworków."
+            ],
+            "features": [
+                {
+                    "title": "Proceduralny świat:",
+                    "description": "Mapa jest generowana od nowa przy każdej rozgrywce — trawa, kamień, woda i drzewa, z gwarantowanym bezpiecznym miejscem startu."
+                },
+                {
+                    "title": "Ruch po siatce:",
+                    "description": "Klasyczne dla roguelike przemieszczanie się kafelek po kafelku, obsługiwane klawiszami WSAD lub strzałkami."
+                },
+                {
+                    "title": "Sztuczna inteligencja przeciwników:",
+                    "description": "Przeciwnicy w stylu creeperów podążają za graczem, omijają zablokowane pola i zadają obrażenia przy kontakcie."
+                },
+                {
+                    "title": "Życie i punktacja:",
+                    "description": "Trzy punkty życia z chwilową nietykalnością po otrzymaniu obrażeń oraz wynik rosnący wraz z czasem przetrwania."
+                },
+                {
+                    "title": "Stany gry i dźwięk:",
+                    "description": "Menu z przełącznikiem muzyki, właściwa rozgrywka i ekran śmierci z możliwością restartu, wsparte bezpiecznym odtwarzaniem dźwięku."
+                }
+            ],
+            "link": "https://github.com/PejperO/Minecraft-Roguelike"
+        },
         {
             "title": "Aplikacja szachowa ze zdolnością do współpracy z innymi urządzeniami w sieci lokalnej",
             "img": "/public/assets/projects/Chess2D.png",
